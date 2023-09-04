@@ -30,7 +30,7 @@ section{
   justify-content: center;
   align-items: center;
   backdrop-filter: blur(15px);
-  box-shadow: 0 0 25px, #000;
+  box-shadow: 0 0 25px #fff;
   /*overflow: hidden;*/
   transition: height .2s ease;
   
