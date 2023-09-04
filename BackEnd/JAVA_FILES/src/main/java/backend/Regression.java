@@ -1,8 +1,8 @@
 package backend;
 
-import java.io.*;
+//import java.io.*;
 import java.util.*;
-import com.opencsv.CSVReader;
+//import com.opencsv.CSVReader;
 import org.bson.Document;
 import org.bson.conversions.Bson;
 import com.mongodb.client.DistinctIterable;
@@ -13,11 +13,16 @@ import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 import com.mongodb.client.model.Filters;
 
+import java.io.IOException;
+import java.nio.*;
+import java.nio.file.Files;
+import java.nio.file.Path;
+
 
 
 public class Regression {
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		
 		Integer[] year = new Integer[14];
 		Integer[] case_inyear = new Integer[14]; 
@@ -101,15 +106,12 @@ public class Regression {
 		double m = (num)/(den);
 		double b = y_mean-(m*x_mean);
 		
-		Double[] y_pred = new Double[84];
-		
-		for(int n=0;n<x.length;n++) {
-			y_pred[n]=m*x[n]+b;
-		}
-		
-		for(int q=0;q<x.length;q++) {
-			System.out.println(y_pred[q]);
-		}
+		String values = String.valueOf(m)+","+String.valueOf(b);
+		Path fileName = Path.of("Values.csv");
+		Files.writeString(fileName,values);
+				
+		Double y_pred = m*(2015)+b;
+		System.out.print(y_pred);
 	}
 
 }
