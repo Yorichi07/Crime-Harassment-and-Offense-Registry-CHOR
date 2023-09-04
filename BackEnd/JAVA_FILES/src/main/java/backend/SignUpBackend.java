@@ -53,8 +53,7 @@ public class SignUpBackend {
 	      cipher.init(Cipher.ENCRYPT_MODE, secretKey, ivspec);  
 	      
 	      /* Returns encrypted value. */  
-	      return Base64.getEncoder()  
-	      .encodeToString(cipher.doFinal(Password.getBytes(StandardCharsets.UTF_8)));  
+	      return Base64.getEncoder().encodeToString(cipher.doFinal(Password.getBytes(StandardCharsets.UTF_8)));  
 	    }   
 	    catch (InvalidAlgorithmParameterException | InvalidKeyException | NoSuchAlgorithmException | InvalidKeySpecException | BadPaddingException | IllegalBlockSizeException | NoSuchPaddingException e)   
 	    {  
@@ -64,7 +63,7 @@ public class SignUpBackend {
 	    return null;
 	}
 	
-	public Document addUser(String Name, String UserName, String PhoneNo, String Password) {
+	public Document addUser(String Name, String UserName, String PhoneNo, String Password) throws CsvValidationException, NoSuchAlgorithmException, IOException {
 		
 		MongoClient mc = MongoClients.create("mongodb+srv://Aditya07:Adit%405207902@cluster0.v2wojna.mongodb.net/?retryWrites=true&w=majority");
 		MongoDatabase db = mc.getDatabase("USERS_INFO");
@@ -78,28 +77,29 @@ public class SignUpBackend {
 			return res;
 		}
 		
+		Document user = new Document("UserName",UserName);
+		user.append("Name",Name);
+		user.append("Phone_Number",PhoneNo);
+		Password = Encrypt(Password);
+		user.append("Password",Password);
 		
-		Document res = new Document("UserName",UserName);
-		res.append("Name",Name);
-		res.append("Phone_Number",PhoneNo);
-		res.append("Password",Password);
+		if(col.insertOne(user) != null){
+			Document res = new Document("ResCode",200);
+			res.append("Msg","User Created!");
+			return res;
+		}
+		Document res = new Document("ResCode",202);
+		res.append("Msg","User not created");
 		
-		
-		return null;
+		return res;
 		
 	}
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws CsvValidationException, NoSuchAlgorithmException, IOException {
 
-		try {
-			System.out.println(SignUpBackend.Encrypt("AdityaSharma"));
-		} catch (CsvValidationException e) {
-			e.printStackTrace();
-		} catch (NoSuchAlgorithmException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+		SignUpBackend user = new SignUpBackend();	
+		System.out.println(SignUpBackend.Encrypt("AdityaSharma"));
+		System.out.println(user.addUser("Aditya Sharma","devganaditya@gmail.com","7428025402","Adit@5207902"));	
 		
 	}
 
