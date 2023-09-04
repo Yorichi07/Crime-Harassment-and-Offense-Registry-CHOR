@@ -12,7 +12,6 @@ import com.mongodb.client.MongoClients;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 import com.mongodb.client.model.Filters;
-
 import java.io.IOException;
 import java.nio.*;
 import java.nio.file.Files;
@@ -109,6 +108,7 @@ public class Regression {
 		String values = String.valueOf(m)+","+String.valueOf(b);
 		Path fileName = Path.of("Values.csv");
 		Files.writeString(fileName,values);
+		
 				
 		Double y_pred = m*(2015)+b;
 		System.out.print(y_pred);
