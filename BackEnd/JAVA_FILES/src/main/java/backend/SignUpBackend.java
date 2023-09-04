@@ -98,7 +98,6 @@ public class SignUpBackend {
 	public static void main(String[] args) throws CsvValidationException, NoSuchAlgorithmException, IOException {
 
 		SignUpBackend user = new SignUpBackend();	
-		System.out.println(SignUpBackend.Encrypt("AdityaSharma"));
 		System.out.println(user.addUser("Aditya Sharma","devganaditya@gmail.com","7428025402","Adit@5207902"));	
 		
 	}

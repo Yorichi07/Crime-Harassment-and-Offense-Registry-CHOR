@@ -66,22 +66,22 @@ public class Login_backend {
 	    }  
 	
 	public Document verifyUser(String Username, String Password){
-		MongoClient mc = MongoClients.create("connection string - mongodb+srv://Aditya07:Adit%405207902@cluster0.v2wojna.mongodb.net/?retryWrites=true&w=majority");
+		MongoClient mc = MongoClients.create("mongodb+srv://Aditya07:Adit%405207902@cluster0.v2wojna.mongodb.net/?retryWrites=true&w=majority");
 		MongoDatabase db = mc.getDatabase("USERS_INFO");
 		MongoCollection<Document> col = db.getCollection("USERS");
-		Bson filters = Filters.eq("USERS",Username);
+		Bson filters = Filters.eq("UserName",Username);
 		FindIterable<Document> fr = col.find(filters);
 		Iterator<Document> it = fr.iterator();
-		if(it.next() == null) {
+		if(!it.hasNext()) {
 			Document res = new Document("ResCode",404);
 			res.append("Msg","User does not exist");
 			return res;
 		}
 		Document userinfo = it.next();
-		String Pass = userinfo.getString("PassWord");
+		String Pass = userinfo.getString("Password");
 		Pass = decrypt(Pass);
 		
-		if(Pass == Password) {
+		if(Pass.equals(Password)) {
 			Document res = new Document("ResCode",200);
 			res.append("Msg","User Logged In");
 			return res;
@@ -93,7 +93,8 @@ public class Login_backend {
 		
 	}
 	public static void main(String[] args) {
-		System.out.println(decrypt("ZowzWZ9GMQIoI0wyYHLqWQ=="));
+		Login_backend lb = new Login_backend();
+		System.out.println(lb.verifyUser("devganaditya@gmail.com","Adit@5207902"));
 
 	}
 
