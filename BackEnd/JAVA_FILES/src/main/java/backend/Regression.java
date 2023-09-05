@@ -1,8 +1,6 @@
 package backend;
 
-//import java.io.*;
 import java.util.*;
-//import com.opencsv.CSVReader;
 import org.bson.Document;
 import org.bson.conversions.Bson;
 import com.mongodb.client.DistinctIterable;
@@ -13,7 +11,6 @@ import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 import com.mongodb.client.model.Filters;
 import java.io.IOException;
-import java.nio.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
@@ -42,8 +39,6 @@ public class Regression {
 				total_Cases = total_Cases + Integer.parseInt(itr.next().getString("Total_IPC"));	//adding total cases of all states for a specific year
 			}
 			
-//			System.out.println(current_year+" :  "+total_Cases);
-			
 			year[p]=current_year;	
 			case_inyear[p]=total_Cases;
 			p++;
@@ -51,34 +46,10 @@ public class Regression {
 			total_Cases = 0;    //making it zero for calculation of next year
 				
 		}
-		
-//		for(int o=0;o<year.length;o++) {
-//		System.out.println(year[o]+" "+case_inyear[o]);
-//		}
 			
 		Integer[] x = year.clone();
 		Integer[] y = case_inyear.clone();
-		
-		
-//		int i=0;
-		
-//		try {
-//			CSVReader reader = new CSVReader(new FileReader("DATASET/test.csv"));
-//			String[] nextLine;
-//			while((nextLine = reader.readNext())!= null) {
-//				try{
-//					x[i]=Double.parseDouble(nextLine[0]);
-//					y[i]=Double.parseDouble(nextLine[1]);
-//				}catch(Exception e) {
-//					x[i] =Double.parseDouble(nextLine[0].substring(1));
-//					y[i] =Double.parseDouble(nextLine[1]);
-//				}
-//				i++;
-//			}
-//		}catch(Exception e) {
-//			e.printStackTrace();
-//		}
-		
+				
 		double x_mean;
 		double y_mean;
 		double sum1=0;
@@ -110,7 +81,7 @@ public class Regression {
 		Files.writeString(fileName,values);
 		
 				
-		Double y_pred = m*(2015)+b;
+		Double y_pred = m*(2014)+b;
 		System.out.print(y_pred);
 	}
 

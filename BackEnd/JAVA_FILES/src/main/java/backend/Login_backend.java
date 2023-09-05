@@ -1,5 +1,4 @@
 package backend;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.security.InvalidAlgorithmParameterException;
@@ -22,7 +21,6 @@ import javax.crypto.spec.PBEKeySpec;
 
 import org.bson.Document;
 import org.bson.conversions.Bson;
-import com.mongodb.client.DistinctIterable;
 import com.mongodb.client.FindIterable;
 import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoClients;
