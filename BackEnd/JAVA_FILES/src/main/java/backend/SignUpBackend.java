@@ -157,8 +157,6 @@ public class SignUpBackend {
 
 	public static void main(String[] args) throws CsvValidationException, NoSuchAlgorithmException, IOException {
 		
-	
-		
 		
 		SignUpBackend user = new SignUpBackend();	
 		
