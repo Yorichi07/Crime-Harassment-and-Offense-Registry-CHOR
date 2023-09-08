@@ -27,6 +27,45 @@ import javax.crypto.NoSuchPaddingException;
 
 public class SignUpBackend {
 	
+	public static List<Document> Sort(List<Document> allUsers){
+		
+		int n = allUsers.size();
+		for (int i = 1; i<n; i++) {
+			Document key = allUsers.get(i);
+			int j = i-1;
+			
+			while(j>=0 && allUsers.get(j).get("UserName").toString().compareTo(key.getString("UserName"))>0) {
+				allUsers.set(j+1, allUsers.get(j));
+				j--;
+			}
+			
+			allUsers.set(j+1, key);
+		}
+		return allUsers;
+	}
+	
+	public static int Search(List<Document> allUsers,String Target) {
+		
+		int left=0;
+		int right= allUsers.size() - 1;
+		
+		while(left<=right) {
+			int mid = (left + right) / 2;
+			int comparison = Target.compareTo(allUsers.get(mid).getString("UserName"));
+			
+			if(comparison ==0) {
+				return mid;
+			}else if(comparison <0) {
+				right = mid - 1;
+			}else {
+				left = mid + 1;
+			}
+		}
+		
+		return -1;  //Element not found
+	}
+
+	
 	static String Encrypt(String Password) throws CsvValidationException, IOException, NoSuchAlgorithmException {
 		
 		String secret_key,salt_val;
@@ -65,13 +104,28 @@ public class SignUpBackend {
 	
 	public Document addUser(String Name, String UserName, String PhoneNo, String Password) throws CsvValidationException, NoSuchAlgorithmException, IOException {
 		
+//		MongoClient mc = MongoClients.create("mongodb+srv://Aditya07:Adit%405207902@cluster0.v2wojna.mongodb.net/?retryWrites=true&w=majority");
+//		MongoDatabase db = mc.getDatabase("USERS_INFO");
+//		MongoCollection<Document> col = db.getCollection("USERS");
+//		Bson filters = Filters.and(Filters.eq("UserName",UserName));
+//		FindIterable<Document> fr = col.find(filters);
+//		Iterator<Document> it = fr.iterator();	
 		MongoClient mc = MongoClients.create("mongodb+srv://Aditya07:Adit%405207902@cluster0.v2wojna.mongodb.net/?retryWrites=true&w=majority");
 		MongoDatabase db = mc.getDatabase("USERS_INFO");
 		MongoCollection<Document> col = db.getCollection("USERS");
-		Bson filters = Filters.and(Filters.eq("UserName",UserName));
-		FindIterable<Document> fr = col.find(filters);
-		Iterator<Document> it = fr.iterator();	
-		if(it.hasNext()){
+		FindIterable<Document> itr = col.find();
+		Iterator<Document> it = itr.iterator();
+		List<Document> allUsers = new ArrayList<>();
+		int i =0;
+		while(it.hasNext()) {
+			allUsers.add(it.next());
+			i++;
+		}
+		
+		int ind = Search(allUsers,UserName);
+		
+		
+		if(ind != -1){
 			Document res = new Document("ResCode",409);
 			res.append("Msg","User already exists!");
 			return res;
@@ -83,7 +137,12 @@ public class SignUpBackend {
 		Password = Encrypt(Password);
 		user.append("Password",Password);
 		
-		if(col.insertOne(user) != null){
+		List<Document> insUser = new ArrayList<>(allUsers);
+		insUser.add(user);
+		insUser = Sort(insUser);
+
+		col.deleteMany(new Document());
+		if(col.insertMany(insUser) != null){
 			Document res = new Document("ResCode",200);
 			res.append("Msg","User Created!");
 			return res;
@@ -91,14 +150,23 @@ public class SignUpBackend {
 		Document res = new Document("ResCode",202);
 		res.append("Msg","User not created");
 		
+		
 		return res;
 		
 	}
 
 	public static void main(String[] args) throws CsvValidationException, NoSuchAlgorithmException, IOException {
-
+		
+	
+		
+		
 		SignUpBackend user = new SignUpBackend();	
+		
 		System.out.println(user.addUser("Aditya Sharma","devganaditya@gmail.com","7428025402","Adit@5207902"));	
+		System.out.println(user.addUser("Vibhor Minocha","vibhorminocha@gmail.com","7428025882","Adit@5207903"));
+		System.out.println(user.addUser("Lakshit Joshi","lakshitjoshi@gmail.com","7428025992","Adit@5207904"));
+		System.out.println(user.addUser("Uttkarsh Kumar","uttkarshkumar@gmail.com","7428025112","Adit@5207905"));
+		System.out.println(user.addUser("Mansi Gaur","mansigaur@gmail.com","7428025332","Adit@5207906"));
 		
 	}
 
