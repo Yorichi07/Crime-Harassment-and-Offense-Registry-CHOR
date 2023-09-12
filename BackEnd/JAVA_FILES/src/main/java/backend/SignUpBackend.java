@@ -51,11 +51,11 @@ public class SignUpBackend {
 		
 		while(left<=right) {
 			int mid = (left + right) / 2;
-			int comparison = Target.compareTo(allUsers.get(mid).getString("UserName"));
+			int comparison = Target.compareToIgnoreCase(allUsers.get(mid).getString("UserName"));
 			
-			if(comparison ==0) {
+			if(comparison == 0) {
 				return mid;
-			}else if(comparison <0) {
+			}else if(comparison < 0) {
 				right = mid - 1;
 			}else {
 				left = mid + 1;
@@ -156,8 +156,6 @@ public class SignUpBackend {
 	}
 
 	public static void main(String[] args) throws CsvValidationException, NoSuchAlgorithmException, IOException {
-		
-	
 		
 		
 		SignUpBackend user = new SignUpBackend();	
