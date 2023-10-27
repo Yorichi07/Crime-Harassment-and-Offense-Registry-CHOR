@@ -160,3 +160,10 @@ button {
 .register-link p a:hover{
   text-decoration: underline;
 }
+
+.errMsg{
+  color: red;
+  width: 100%;
+  text-align: center;
+  margin-top: 1rem;
+}
