@@ -1,18 +1,9 @@
 package backend;
 
-import java.io.File;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.HashMap;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-import org.bson.Document;
-import com.mongodb.client.MongoClient;
-import com.mongodb.client.MongoClients;
-import com.mongodb.client.MongoCollection;
-import com.mongodb.client.MongoDatabase;
 
 public class Images {
 
@@ -32,8 +23,14 @@ public class Images {
 		Files.write(filePath,fileDataString.getBytes());
 	}
 	
-	public static void main(String[] args) {
-		
+	public static void main(String[] args) throws IOException {
+
+		String folderName = "MyFolder";
+		String fileName = "MyFile.txt";
+		int fileData = 42;
+
+		Images img = new Images();
+		img.createFolderAndFile(folderName,fileName,fileData);
 	}
 
 }

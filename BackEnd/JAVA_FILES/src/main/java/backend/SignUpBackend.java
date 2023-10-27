@@ -1,169 +1,168 @@
 package backend;
 
-import java.io.*;
-import java.util.*;
+import java.io.FileReader;
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.security.InvalidAlgorithmParameterException;
+import java.security.InvalidKeyException;
+import java.security.NoSuchAlgorithmException;
+import java.security.spec.InvalidKeySpecException;
+import java.security.spec.KeySpec;
+import java.util.ArrayList;
+import java.util.Base64;
+import java.util.Iterator;
+import java.util.List;
+
+import javax.crypto.BadPaddingException;
+import javax.crypto.Cipher;
+import javax.crypto.IllegalBlockSizeException;
+import javax.crypto.NoSuchPaddingException;
+import javax.crypto.SecretKey;
+import javax.crypto.SecretKeyFactory;
+import javax.crypto.spec.IvParameterSpec;
+import javax.crypto.spec.PBEKeySpec;
+import javax.crypto.spec.SecretKeySpec;
+
+import org.bson.Document;
+
+import com.mongodb.client.FindIterable;
+import com.mongodb.client.MongoClient;
+import com.mongodb.client.MongoClients;
+import com.mongodb.client.MongoCollection;
+import com.mongodb.client.MongoDatabase;
 import com.opencsv.CSVReader;
 import com.opencsv.exceptions.CsvValidationException;
-import org.bson.Document;
-import com.mongodb.client.*;
-import javax.crypto.Cipher;  
-import javax.crypto.SecretKey;  
-import javax.crypto.SecretKeyFactory;  
-import javax.crypto.spec.IvParameterSpec;  
-import javax.crypto.spec.PBEKeySpec;  
-import javax.crypto.spec.SecretKeySpec;  
-import java.nio.charset.StandardCharsets;  
-import java.security.InvalidAlgorithmParameterException;  
-import java.security.InvalidKeyException;  
-import java.security.NoSuchAlgorithmException;  
-import java.security.spec.InvalidKeySpecException;  
-import java.security.spec.KeySpec;  
-import java.util.Base64;  
-import javax.crypto.BadPaddingException;  
-import javax.crypto.IllegalBlockSizeException;  
-import javax.crypto.NoSuchPaddingException;  
 
 public class SignUpBackend {
-	
-	public static List<Document> Sort(List<Document> allUsers){
-		
+
+	public static List<Document> Sort(List<Document> allUsers) {
+
 		int n = allUsers.size();
-		for (int i = 1; i<n; i++) {
+		for (int i = 1; i < n; i++) {
 			Document key = allUsers.get(i);
-			int j = i-1;
-			
-			while(j>=0 && allUsers.get(j).get("UserName").toString().compareTo(key.getString("UserName"))>0) {
-				allUsers.set(j+1, allUsers.get(j));
+			int j = i - 1;
+
+			while (j >= 0 && allUsers.get(j).get("UserName").toString().compareTo(key.getString("UserName")) > 0) {
+				allUsers.set(j + 1, allUsers.get(j));
 				j--;
 			}
-			
-			allUsers.set(j+1, key);
+
+			allUsers.set(j + 1, key);
 		}
 		return allUsers;
 	}
-	
-	public static int Search(List<Document> allUsers,String Target) {
-		
-		int left=0;
-		int right= allUsers.size() - 1;
-		
-		while(left<=right) {
+
+	public static int Search(List<Document> allUsers, String Target) {
+
+		int left = 0;
+		int right = allUsers.size() - 1;
+
+		while (left <= right) {
 			int mid = (left + right) / 2;
 			int comparison = Target.compareToIgnoreCase(allUsers.get(mid).getString("UserName"));
-			
-			if(comparison == 0) {
+
+			if (comparison == 0) {
 				return mid;
-			}else if(comparison < 0) {
+			} else if (comparison < 0) {
 				right = mid - 1;
-			}else {
+			} else {
 				left = mid + 1;
 			}
 		}
-		
-		return -1;  //Element not found
+
+		return -1; // Element not found
 	}
 
-	
 	static String Encrypt(String Password) throws CsvValidationException, IOException, NoSuchAlgorithmException {
-		
-		String secret_key,salt_val;
+
+		String secret_key, salt_val;
 		CSVReader reader = new CSVReader(new FileReader("Param.csv"));
 		String[] nextLine;
 		nextLine = reader.readNext();
 		secret_key = nextLine[0];
 		salt_val = nextLine[1];
-		
-	    try   
-	    {  
-	      /* Declare a byte array. */  
-	      byte[] iv = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};  
-	      IvParameterSpec ivspec = new IvParameterSpec(iv);
-	      
-	      /* Create factory for secret keys. */  
-	      SecretKeyFactory factory = SecretKeyFactory.getInstance("PBKDF2WithHmacSHA256");  
-	      
-	      /* PBEKeySpec class implements KeySpec interface. */  
-	      KeySpec spec = new PBEKeySpec(secret_key.toCharArray(), salt_val.getBytes(), 65536, 256);  
-	      SecretKey tmp = factory.generateSecret(spec);  
-	      SecretKeySpec secretKey = new SecretKeySpec(tmp.getEncoded(), "AES");  
-	      Cipher cipher = Cipher.getInstance("AES/CBC/PKCS5Padding");  
-	      cipher.init(Cipher.ENCRYPT_MODE, secretKey, ivspec);  
-	      
-	      /* Returns encrypted value. */  
-	      return Base64.getEncoder().encodeToString(cipher.doFinal(Password.getBytes(StandardCharsets.UTF_8)));  
-	    }   
-	    catch (InvalidAlgorithmParameterException | InvalidKeyException | NoSuchAlgorithmException | InvalidKeySpecException | BadPaddingException | IllegalBlockSizeException | NoSuchPaddingException e)   
-	    {  
-	      System.out.println("Error occured during encryption: " + e.toString());  
-	    } 
-	    
-	    return null;
+
+		try {
+			/* Declare a byte array. */
+			byte[] iv = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+			IvParameterSpec ivspec = new IvParameterSpec(iv);
+
+			/* Create factory for secret keys. */
+			SecretKeyFactory factory = SecretKeyFactory.getInstance("PBKDF2WithHmacSHA256");
+
+			/* PBEKeySpec class implements KeySpec interface. */
+			KeySpec spec = new PBEKeySpec(secret_key.toCharArray(), salt_val.getBytes(), 65536, 256);
+			SecretKey tmp = factory.generateSecret(spec);
+			SecretKeySpec secretKey = new SecretKeySpec(tmp.getEncoded(), "AES");
+			Cipher cipher = Cipher.getInstance("AES/CBC/PKCS5Padding");
+			cipher.init(Cipher.ENCRYPT_MODE, secretKey, ivspec);
+
+			/* Returns encrypted value. */
+			return Base64.getEncoder().encodeToString(cipher.doFinal(Password.getBytes(StandardCharsets.UTF_8)));
+		} catch (InvalidAlgorithmParameterException | InvalidKeyException | NoSuchAlgorithmException
+				| InvalidKeySpecException | BadPaddingException | IllegalBlockSizeException
+				| NoSuchPaddingException e) {
+			System.out.println("Error occured during encryption: " + e.toString());
+		}
+
+		return null;
 	}
-	
+
 	public Document addUser(String Name, String UserName, String PhoneNo, String Password) throws CsvValidationException, NoSuchAlgorithmException, IOException {
-		
-//		MongoClient mc = MongoClients.create("mongodb+srv://Aditya07:Adit%405207902@cluster0.v2wojna.mongodb.net/?retryWrites=true&w=majority");
-//		MongoDatabase db = mc.getDatabase("USERS_INFO");
-//		MongoCollection<Document> col = db.getCollection("USERS");
-//		Bson filters = Filters.and(Filters.eq("UserName",UserName));
-//		FindIterable<Document> fr = col.find(filters);
-//		Iterator<Document> it = fr.iterator();	
+
 		MongoClient mc = MongoClients.create("mongodb+srv://Aditya07:Adit%405207902@cluster0.v2wojna.mongodb.net/?retryWrites=true&w=majority");
 		MongoDatabase db = mc.getDatabase("USERS_INFO");
 		MongoCollection<Document> col = db.getCollection("USERS");
 		FindIterable<Document> itr = col.find();
 		Iterator<Document> it = itr.iterator();
 		List<Document> allUsers = new ArrayList<>();
-		int i =0;
-		while(it.hasNext()) {
+		int i = 0;
+		while (it.hasNext()) {
 			allUsers.add(it.next());
 			i++;
 		}
-		
-		int ind = Search(allUsers,UserName);
-		
-		
-		if(ind != -1){
-			Document res = new Document("ResCode",409);
-			res.append("Msg","User already exists!");
+
+		int ind = Search(allUsers, UserName);
+
+		if (ind != -1) {
+			Document res = new Document("ResCode", 409);
+			res.append("Msg", "User already exists!");
 			return res;
 		}
-		
-		Document user = new Document("UserName",UserName);
-		user.append("Name",Name);
-		user.append("Phone_Number",PhoneNo);
+
+		Document user = new Document("UserName", UserName);
+		user.append("Name", Name);
+		user.append("Phone_Number", PhoneNo);
 		Password = Encrypt(Password);
-		user.append("Password",Password);
-		
+		user.append("Password", Password);
+
 		List<Document> insUser = new ArrayList<>(allUsers);
 		insUser.add(user);
 		insUser = Sort(insUser);
 
 		col.deleteMany(new Document());
-		if(col.insertMany(insUser) != null){
-			Document res = new Document("ResCode",200);
-			res.append("Msg","User Created!");
+		if (col.insertMany(insUser) != null) {
+			Document res = new Document("ResCode", 200);
+			res.append("Msg", "User Created!");
 			return res;
 		}
-		Document res = new Document("ResCode",202);
-		res.append("Msg","User not created");
-		
-		
+		Document res = new Document("ResCode", 202);
+		res.append("Msg", "User not created");
+
 		return res;
-		
+
 	}
 
 	public static void main(String[] args) throws CsvValidationException, NoSuchAlgorithmException, IOException {
-		
-		
-		SignUpBackend user = new SignUpBackend();	
-		
-		System.out.println(user.addUser("Aditya Sharma","devganaditya@gmail.com","7428025402","Adit@5207902"));	
-		System.out.println(user.addUser("Vibhor Minocha","vibhorminocha@gmail.com","7428025882","Adit@5207903"));
-		System.out.println(user.addUser("Lakshit Joshi","lakshitjoshi@gmail.com","7428025992","Adit@5207904"));
-		System.out.println(user.addUser("Uttkarsh Kumar","uttkarshkumar@gmail.com","7428025112","Adit@5207905"));
-		System.out.println(user.addUser("Mansi Gaur","mansigaur@gmail.com","7428025332","Adit@5207906"));
-		
+
+		SignUpBackend user = new SignUpBackend();
+
+		System.out.println(user.addUser("Aditya Sharma", "devganaditya@gmail.com", "7428025402", "Adit@5207902"));
+		System.out.println(user.addUser("Vibhor Minocha", "vibhorminocha@gmail.com", "7428025882", "Adit@5207903"));
+		System.out.println(user.addUser("Lakshit Joshi", "lakshitjoshi@gmail.com", "7428025992", "Adit@5207904"));
+		System.out.println(user.addUser("Uttkarsh Kumar", "uttkarshkumar@gmail.com", "7428025112", "Adit@5207905"));
+		System.out.println(user.addUser("Mansi Gaur", "mansigaur@gmail.com", "7428025332", "Adit@5207906"));
+
 	}
 
 }
