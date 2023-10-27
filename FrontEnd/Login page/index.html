@@ -9,7 +9,6 @@
 </head>
 
 <body>
-
 <section>
   <!--For login of the user-->
   <div class="loginbox">
@@ -21,13 +20,13 @@
 
         <div class="input-box">
           <span class="icon"><ion-icon name="mail"></ion-icon></span>
-          <input type="email" required>
+          <input class="inpBx" type="email" required>
           <label>Email</label>
         </div>
 
         <div class="input-box">
           <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
-          <input type="password" required>
+          <input class="inpBx" type="password" required>
           <label>Password</label>
         </div>
 
@@ -36,13 +35,13 @@
           <a href="#">Forgot Password?</a>
         </div>
 
-        <button type="submit">Login</button>
+        <button class="subBtn" type="button">Login</button>
         <div class="register-link">
           <p>
             Don't have an account? <a href="#">Sign up</a>
           </p>
         </div>
-
+        <p class="errMsg"></p>
       </div>
 
 
@@ -54,7 +53,7 @@
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
-
+<script src="Login.js"></script>
 
 
 
