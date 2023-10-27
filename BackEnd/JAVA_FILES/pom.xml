@@ -49,8 +49,8 @@
 	   
 	   <dependency>
     	<groupId>org.json</groupId>
-    	<artifactId>json</artifactId>
-    	<version>20230618</version>
+		<artifactId>json</artifactId>
+		<version>20231013</version>
 		</dependency>
 		
 		<dependency>
@@ -63,12 +63,12 @@
     		<groupId>net.glxn</groupId>
     		<artifactId>qrgen</artifactId>
     		<version>1.4</version>
-		</dependency>
+		</dependency> 
 	
 	    <dependency>
 			<groupId>commons-io</groupId>
 			<artifactId>commons-io</artifactId>
-			<version>2.6</version>
+			<version>2.14.0</version>
 		</dependency>
 		
 		<dependency>  
@@ -81,11 +81,6 @@
 			<artifactId>javase</artifactId>  
 			<version>3.3.0</version>  
 		</dependency>  
-  
-		
-
-
-		
   </dependencies>
   
   
