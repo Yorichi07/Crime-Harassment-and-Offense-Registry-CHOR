@@ -15,24 +15,23 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 
 
-
-public class Regression {
+public class Regression {							//linear regression
 	
 	public static void main(String[] args) throws IOException {
 		
-		Integer[] year = new Integer[14];
-		Integer[] case_inyear = new Integer[14]; 
-		Integer total_Cases = 0,current_year,p=0;
+		Integer[] year = new Integer[14];			//to store the years 									
+		Integer[] case_inyear = new Integer[14]; 	//to store total cases for each year
+		Integer total_Cases = 0,current_year,p=0;	
 		
 		MongoClient mc = MongoClients.create("mongodb+srv://Aditya07:Adit%405207902@cluster0.v2wojna.mongodb.net/?retryWrites=true&w=majority");   
-		MongoDatabase db = mc.getDatabase("CRIME_STATISTICS");   //connecting to the database
-		MongoCollection<Document> col = db.getCollection("Total_IPC");	//retrieving required collection from database
+		MongoDatabase db = mc.getDatabase("CRIME_STATISTICS");   				//selecting specific db from Mongodb server
+		MongoCollection<Document> col = db.getCollection("Total_IPC");			//retrieving required collection from database
 		DistinctIterable<String> iterDoc = col.distinct("Year", String.class);	//collecting distinct values of key:"Year" which is of string class type
 		Iterator<String> it = iterDoc.iterator();	
 		
 		while(it.hasNext()) {
-			current_year =Integer.parseInt(it.next());	//for first iteration of while loop, current_year=1
-			Bson filter = Filters.and(Filters.eq("Year",String.valueOf(current_year)),Filters.eq("District","TOTAL"));	//filtering for specific year with only district as total which contain total number of cases for a state in a year
+			current_year =Integer.parseInt(it.next());			//for first iteration of while loop, current_year=1
+			Bson filter = Filters.and(Filters.eq("Year",String.valueOf(current_year)),Filters.eq("District","TOTAL"));	//filtering for specific year with District-total that contains total no. of cases for specific state
 			FindIterable<Document> yrcas = col.find(filter);	//saving above filtering into an object
 			Iterator<Document> itr = yrcas.iterator();
 			while(itr.hasNext()) {
@@ -47,8 +46,8 @@ public class Regression {
 				
 		}
 			
-		Integer[] x = year.clone();
-		Integer[] y = case_inyear.clone();
+		Integer[] x = year.clone();				//cloning years array into x
+		Integer[] y = case_inyear.clone();		//cloning case_inyear array into y
 				
 		double x_mean;
 		double y_mean;
@@ -77,7 +76,7 @@ public class Regression {
 		double b = y_mean-(m*x_mean);
 		
 		String values = String.valueOf(m)+","+String.valueOf(b);
-		Path fileName = Path.of("Values.csv");
+		Path fileName = Path.of("Values.csv"); 		//saving values of m and b in values.csv
 		Files.writeString(fileName,values);
 		
 				

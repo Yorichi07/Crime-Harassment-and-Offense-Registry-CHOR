@@ -162,5 +162,11 @@ button {
   text-decoration: underline;
 }
 
+.errMsg{
+  color: red;
+  width: 100%;
+  margin-top: 1rem;
+  text-align: center;
+}
 
 
