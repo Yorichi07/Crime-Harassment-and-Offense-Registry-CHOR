@@ -76,7 +76,7 @@ public class Regression {							//linear regression
 		double b = y_mean-(m*x_mean);
 		
 		String values = String.valueOf(m)+","+String.valueOf(b);
-		Path fileName = Path.of("Values.csv"); 		//saving values of m and b in values.csv
+		Path fileName = Path.of("Values_m_b.csv"); 		//saving values of m and b in values.csv
 		Files.writeString(fileName,values);
 		
 				

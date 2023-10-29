@@ -37,7 +37,7 @@ public class Login_backend {
 	    try   
 	    {  
 	    	String secret_key,salt_val;
-			CSVReader reader = new CSVReader(new FileReader("Param.csv"));
+			CSVReader reader = new CSVReader(new FileReader("BackEnd\\JAVA_FILES\\Salt_value_and_Private_key.csv"));
 			String[] nextLine;
 			nextLine = reader.readNext();
 			secret_key = nextLine[0];
@@ -65,8 +65,8 @@ public class Login_backend {
 	
 	public Document verifyUser(String Username, String Password){
 		MongoClient mc = MongoClients.create("mongodb+srv://Aditya07:Adit%405207902@cluster0.v2wojna.mongodb.net/?retryWrites=true&w=majority");
-		MongoDatabase db = mc.getDatabase("USERS_INFO");
-		MongoCollection<Document> col = db.getCollection("USERS");
+		MongoDatabase db = mc.getDatabase("USERS");
+		MongoCollection<Document> col = db.getCollection("USERS_INFO");
 		Bson filters = Filters.eq("UserName",Username);
 		FindIterable<Document> fr = col.find(filters);
 		Iterator<Document> it = fr.iterator();
@@ -90,7 +90,7 @@ public class Login_backend {
 		}
 		
 	}
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		Login_backend lb = new Login_backend();
 		System.out.println(lb.verifyUser("devganaditya@gmail.com","Adit@5207902"));
 
