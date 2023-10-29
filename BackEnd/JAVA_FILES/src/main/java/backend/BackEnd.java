@@ -3,6 +3,7 @@ package backend;
 //Imports necessary Packages
 import static spark.Spark.*;
 import java.io.IOException;
+import java.io.InputStream;
 import java.security.NoSuchAlgorithmException;
 import org.bson.Document;
 import com.google.gson.Gson;
@@ -40,6 +41,9 @@ public class BackEnd {
 		
 		// Specifying the port on which the requests will be listened
 		port(8080);
+
+		// Set folder for access of static files
+		staticFiles.location("/public");
 		
 		
 		options("/*",(req,res)->{
@@ -64,6 +68,16 @@ public class BackEnd {
 			res.type("");
 			
 		});
+
+		// Get html Pages
+
+		//Login Page
+		get("/Login", (req,res)->{
+			res.type("text/html");
+			res.redirect("/html/Login page/index.html");
+			return "";
+		});
+
 		
 		path("/api",()->{
 			//SignUp			
