@@ -76,7 +76,7 @@ public class SignUpBackend {
 	static String Encrypt(String Password) throws CsvValidationException, IOException, NoSuchAlgorithmException {
 
 		String secret_key, salt_val;
-		CSVReader reader = new CSVReader(new FileReader("BackEnd\\JAVA_FILES\\Param.csv"));
+		CSVReader reader = new CSVReader(new FileReader("BackEnd\\JAVA_FILES\\Salt_value_and_Private_key.csv"));
 		String[] nextLine;
 		nextLine = reader.readNext();
 		secret_key = nextLine[0];
