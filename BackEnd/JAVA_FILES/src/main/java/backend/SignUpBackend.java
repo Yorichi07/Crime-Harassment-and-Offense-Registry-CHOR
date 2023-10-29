@@ -76,7 +76,7 @@ public class SignUpBackend {
 	static String Encrypt(String Password) throws CsvValidationException, IOException, NoSuchAlgorithmException {
 
 		String secret_key, salt_val;
-		CSVReader reader = new CSVReader(new FileReader("Param.csv"));
+		CSVReader reader = new CSVReader(new FileReader("BackEnd\\JAVA_FILES\\Param.csv"));
 		String[] nextLine;
 		nextLine = reader.readNext();
 		secret_key = nextLine[0];
@@ -111,8 +111,8 @@ public class SignUpBackend {
 	public Document addUser(String Name, String UserName, String PhoneNo, String Password) throws CsvValidationException, NoSuchAlgorithmException, IOException {
 
 		MongoClient mc = MongoClients.create("mongodb+srv://Aditya07:Adit%405207902@cluster0.v2wojna.mongodb.net/?retryWrites=true&w=majority");
-		MongoDatabase db = mc.getDatabase("USERS_INFO");
-		MongoCollection<Document> col = db.getCollection("USERS");
+		MongoDatabase db = mc.getDatabase("USERS");
+		MongoCollection<Document> col = db.getCollection("USERS_INFO");
 		FindIterable<Document> itr = col.find();
 		Iterator<Document> it = itr.iterator();
 		List<Document> allUsers = new ArrayList<>();

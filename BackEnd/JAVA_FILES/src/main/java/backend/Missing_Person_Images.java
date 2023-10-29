@@ -5,7 +5,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.io.IOException;
 
-public class Images {
+public class Missing_Person_Images {
 
 	public void createFolderAndFile(String folderName, String fileName, int fileData) throws IOException{
 
@@ -29,7 +29,7 @@ public class Images {
 		String fileName = "MyFile.txt";
 		int fileData = 42;
 
-		Images img = new Images();
+		Missing_Person_Images img = new Missing_Person_Images();
 		img.createFolderAndFile(folderName,fileName,fileData);
 	}
 
