@@ -4,7 +4,15 @@ package backend;
 import static spark.Spark.*;
 import java.io.IOException;
 import java.io.InputStream;
+import java.lang.invoke.StringConcatFactory;
 import java.security.NoSuchAlgorithmException;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
+
+import javax.servlet.MultipartConfigElement;
+import javax.servlet.http.Part;
+
 import org.bson.Document;
 import com.google.gson.Gson;
 import com.opencsv.exceptions.CsvValidationException;
@@ -44,6 +52,7 @@ public class BackEnd {
 
 		// Set folder for access of static files
 		staticFiles.location("/public");
+
 		
 		
 		options("/*",(req,res)->{
@@ -80,6 +89,18 @@ public class BackEnd {
 
 		
 		path("/api",()->{
+
+			post("/GetMissing", (req,res)->{
+				// set response content type
+				res.type("application/json");
+
+				// Post parameters
+				HashMap<String,String> obj = gson.fromJson(req.body(), HashMap.class);
+				
+
+				return "";
+			});
+
 			//SignUp			
 			post("/SignUpUser","application/json",(req,res)->{
 				res.type("application/json");
@@ -101,6 +122,37 @@ public class BackEnd {
 				//Calling Login Function
 				Document respo = bkdObj.Login(reqBdy.getString("UserName"), reqBdy.getString("PassWord"));
 				return gson.toJson(respo);
+			});
+			post("/Missing/ImgUpload", (req,res)->{
+
+				// defining form data to obtain image from the request
+				res.type("multipart/form-data");
+				req.attribute("org.eclipse.jetty.multipartConfig", new MultipartConfigElement("/temp"));
+
+				// file from the form-data
+				Part uploadedFile = null;
+				try {
+					//get the file element from the request
+					uploadedFile = req.raw().getPart("file");
+
+					//Convert file to byteStream
+					InputStream inp = uploadedFile.getInputStream();
+
+					// Map for rest of the parameters
+					Map<String,String[]> paramerterMap = req.raw().getParameterMap();
+
+					// Save file
+					Missing_Person_Images mpi = new Missing_Person_Images();
+					String pathString =".\\BackEnd\\JAVA_FILES\\src\\main\\resources\\public\\Images\\";
+					pathString = pathString.concat(paramerterMap.get("user")[0]);
+					mpi.createFolderAndFile(pathString, uploadedFile.getSubmittedFileName(), inp.readAllBytes());
+
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+				
+
+			return "";
 			});
 		});
 		
