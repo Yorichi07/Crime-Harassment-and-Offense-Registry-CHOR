@@ -90,10 +90,5 @@ public class Login_backend {
 		}
 		
 	}
-	public static void main(String[] args) throws IOException {
-		Login_backend lb = new Login_backend();
-		System.out.println(lb.verifyUser("devganaditya@gmail.com","Adit@5207902"));
-
-	}
 
 }
