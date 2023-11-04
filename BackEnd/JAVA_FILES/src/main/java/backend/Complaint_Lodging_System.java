@@ -34,7 +34,7 @@ public class Complaint_Lodging_System {
 
     public static void main(String[] args) {
         Complaint_Lodging_System obj = new Complaint_Lodging_System();
-        //obj.createComplaint("Aditya Sharma", "Theft", "Condom chori ho gya ","Gurgaon", "Haryana", "Open");
+        //obj.createComplaint("Aditya Sharma", "Theft", "Toffee chori ho gyi ","Gurgaon", "Haryana", "Open");
         //obj.deleteComplaint("Aditya Sharma");
         //obj.setStatus("Aditya Sharma", "Completed");
     }
