@@ -1,10 +1,16 @@
 package backend;
 
-import org.bson.Document;
+import java.util.ArrayList;
+import java.util.HashMap;
 
+import org.bson.Document;
+import org.bson.conversions.Bson;
+
+import com.mongodb.client.FindIterable;
 import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoClients;
 import com.mongodb.client.MongoCollection;
+import com.mongodb.client.MongoCursor;
 import com.mongodb.client.MongoDatabase;
 import com.mongodb.client.model.Filters;
 
@@ -32,12 +38,31 @@ public class Complaint_Lodging_System {
         col.updateOne(Filters.eq("Username",Username), new Document("$set",new Document("Status", newStatus)));
     }
 
-    public static void main(String[] args) {
-        Complaint_Lodging_System obj = new Complaint_Lodging_System();
-        //obj.createComplaint("Aditya Sharma", "Theft", "Toffee chori ho gyi ","Gurgaon", "Haryana", "Open");
-        //obj.deleteComplaint("Aditya Sharma");
-        //obj.setStatus("Aditya Sharma", "Completed");
-    }
-    
+    public ArrayList<Document> getComplaint(){
 
+        FindIterable<Document> cur = col.find();
+        MongoCursor<Document> itr = cur.iterator();
+        ArrayList<Document> res = new ArrayList<>();
+
+        while(itr.hasNext()){
+            res.add(itr.next());
+        }
+
+        return res;
+    }
+
+    public ArrayList<Document> getComplaint(HashMap<String,String> ftr){
+        
+        Bson fltr = Filters.and(ftr.entrySet().stream().map(el->Filters.eq(el.getKey(),el.getValue())).toArray(Bson[]::new));
+
+        FindIterable<Document> cur = col.find(fltr);
+        MongoCursor<Document> itr = cur.iterator();
+        ArrayList<Document> res = new ArrayList<>();
+
+        while(itr.hasNext()){
+            res.add(itr.next());
+        }
+
+        return res;
+    }
 }

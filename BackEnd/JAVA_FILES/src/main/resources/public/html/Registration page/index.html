@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Registration page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section>
+    <div class="Registrationbox">
+      <form action="">
+
+        <div class="info-text login">
+
+          <h2>Registration</h2>
+
+          <div class="input-box">
+            <span class="icon"><ion-icon name="person"></ion-icon></span>
+            <input type="text" required>
+            <label>Full Name</label>
+          </div>
+
+          <div class="input-box">
+            <span class="icon"><ion-icon name="mail"></ion-icon></span>
+            <input type="email" required>
+            <label>Email</label>
+          </div>
+
+          <div class="input-box">
+            <span class="icon"><ion-icon name="call"></ion-icon></span>
+            <input type="number" required>
+            <label>Phone Number</label>
+          </div>
+
+          <div class="input-box">
+            <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+            <input type="password" required>
+            <label>Password</label>
+          </div>
+
+          <!--<div class="remember-forget">
+            <label><input type="checkbox">Remember me</label>
+          </div>-->
+
+          <button type="button" class="subBtn">Sign up</button>
+          <div class="register-link">
+            <p>
+              Already have an account? <a href="#">Login</a>
+            </p>
+          </div>
+          <p class="errMsg"></p>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="Registration.js"></script>
+
+</body>
