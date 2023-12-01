@@ -38,7 +38,14 @@ public class Complaint_Lodging_System {
         col.updateOne(Filters.eq("Username",Username), new Document("$set",new Document("Status", newStatus)));
     }
 
+<<<<<<< HEAD
+    public static void main(String[] args) {
+        Complaint_Lodging_System obj = new Complaint_Lodging_System();
+    }
+    
+=======
     public ArrayList<Document> getComplaint(){
+>>>>>>> 8235dc95895949f8911ec52d54641ffc1df9a8fc
 
         FindIterable<Document> cur = col.find();
         MongoCursor<Document> itr = cur.iterator();
