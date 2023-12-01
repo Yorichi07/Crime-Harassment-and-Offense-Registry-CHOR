@@ -69,7 +69,6 @@ public class Complaint_Lodging_System {
         while(itr.hasNext()){
             res.add(itr.next());
         }
-
         return res;
     }
 }
