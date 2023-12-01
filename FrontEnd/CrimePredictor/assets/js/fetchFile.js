@@ -9,3 +9,8 @@ function handleClick(e){
         document.querySelector(".class_24").innerHTML = resp
     })
 }
+
+function successSubmit(e) {
+    window.alert("Feedback Submitted successfully!");
+    location.reload();
+}
