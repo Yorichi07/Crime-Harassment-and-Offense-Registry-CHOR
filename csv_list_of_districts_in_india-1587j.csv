@@ -1,0 +1,771 @@
+﻿SNo.,Code,State,Andhra Pradesh (AP)District,Headquarters,Population,Area,Density
+,,,,,-2021,(km),(/km)
+1,AS,Andhra Pradesh (AP),Alluri Sitharama Raju,Paderu,"954,000","12,251",77.87
+2,AK,Andhra Pradesh (AP),Anakapalli,Anakapalli,"1,727,000","4,292",402.38
+3,AN,Andhra Pradesh (AP),Ananthapuramu,Ananthapuramu,"2,241,100","10,205",219.608
+4,AM,Andhra Pradesh (AP),Annamayya,Rayachoti,"1,697,300","7,954",213.389
+5,BP,Andhra Pradesh (AP),Bapatla,Bapatla,"1,587,000","3,829",414.47
+6,CH,Andhra Pradesh (AP),Chittoor,Chittoor,"1,873,000","6,855",273.23
+7,KN,Andhra Pradesh (AP),Dr. B.R. Ambedkar Konaseema,Amalapuram,"1,719,100","2,083",825.3
+8,EG,Andhra Pradesh (AP),East Godavari,Rajamahendravaram,"1,832,300","2,561",715.46
+9,EL,Andhra Pradesh (AP),Eluru,Eluru,"2,071,700","6,679",310.181
+10,GU,Andhra Pradesh (AP),Guntur,Guntur,"2,091,000","2,443",855.9
+11,KK,Andhra Pradesh (AP),Kakinada,Kakinada,"2,092,300","3,019",693.04
+12,KR,Andhra Pradesh (AP),Krishna,Machilipatnam,"1,735,000","3,775",459.602
+13,KU,Andhra Pradesh (AP),Kurnool,Kurnool,"2,271,700","7,980",284.67
+14,NN,Andhra Pradesh (AP),Nandyal,Nandyal,"1,781,800","9,682",184.032
+15,NT,Andhra Pradesh (AP),NTR,Vijayawada,"2,218,000","3,316",668.88
+16,PL,Andhra Pradesh (AP),Palnadu,Narasaraopet,"2,042,000","7,298",279.8
+17,PM,Andhra Pradesh (AP),Parvathipuram Manyam,Parvathipuram,"925,300","3,659",252.88
+18,PR,Andhra Pradesh (AP),Prakasam,Ongole,"2,288,000","14,322",160
+19,SR,Andhra Pradesh (AP),Srikakulam,Srikakulam,"2,191,471","4,591",477.34
+20,NE,Andhra Pradesh (AP),Sri Potti Sriramulu Nellore,Nellore,"2,469,700","10,441",236
+21,SS,Andhra Pradesh (AP),Sri Sathya Sai,Puttaparthi,"1,840,000","8,925",206.2
+22,TR,Andhra Pradesh (AP),Tirupati,Tirupati,"2,197,000","8,231",241.72
+23,VS,Andhra Pradesh (AP),Visakhapatnam,Visakhapatnam,"1,959,500","1,048",1869.8
+24,VZ,Andhra Pradesh (AP),Vizianagaram,Vizianagaram,"1,930,800","4,122",468.41
+25,WG,Andhra Pradesh (AP),West Godavari,Bhimavaram,"1,780,000","2,178",817.3
+26,CU,Andhra Pradesh (AP),YSR,Kadapa,"2,060,700","11,228",183.532
+27,AJ,Arunachal Pradesh (AR),Anjaw,Hawai,"21,089","6,190",3
+28,CH,Arunachal Pradesh (AR),Changlang,Changlang,"147,951","4,662",32
+29,EK,Arunachal Pradesh (AR),East Kameng,Seppa,"78,413","4,134",19
+30,ES,Arunachal Pradesh (AR),East Siang,Pasighat,"99,019","3,603",27
+31,,Arunachal Pradesh (AR),Itanagar capital complex,Itanagar,"122,930",200,614.65
+32, –,Arunachal Pradesh (AR),Kamle,Raga,"22,256",200,111
+33, –,Arunachal Pradesh (AR),Kra Daadi,Palin,"22,290",2202,10
+34,KK,Arunachal Pradesh (AR),Kurung Kumey,Koloriang,"89,717","6,040",15
+35, –,Arunachal Pradesh (AR),Lepa Rada,Basar, –, –, –
+36,EL,Arunachal Pradesh (AR),Lohit,Tezu,"145,538","2,402",61
+37,LD,Arunachal Pradesh (AR),Longding,Longding,"60,000","1,200",50
+38,DV,Arunachal Pradesh (AR),Lower Dibang Valley,Roing,"53,986","3,900",14
+39, –,Arunachal Pradesh (AR),Lower Siang,Likabali,"22,630", –, –
+40,LB,Arunachal Pradesh (AR),Lower Subansiri,Ziro,"82,839","3,508",24
+41, –,Arunachal Pradesh (AR),Namsai,Namsai,"95,950","1,587",60
+42, –,Arunachal Pradesh (AR),Pakke-Kessang,Lemmi,"15,358","1,932",7.9
+43,PA,Arunachal Pradesh (AR),Papum Pare,Yupia,"176,385","2,875",61
+44, –,Arunachal Pradesh (AR),Shi Yomi,Teto,"13,310","2,875",5
+45, –,Arunachal Pradesh (AR),Siang,Boleng,"31,920","2,919",11
+46,TA,Arunachal Pradesh (AR),Tawang,Tawang,"49,950","2,085",24
+47,TI,Arunachal Pradesh (AR),Tirap,Khonsa,"111,997","2,362",47
+48,UD,Arunachal Pradesh (AR),Upper Dibang Valley,Anini,"8,004","9,129",1
+49,US,Arunachal Pradesh (AR),Upper Siang,Yingkiong,"35,289","6,188",6
+50,UB,Arunachal Pradesh (AR),Upper Subansiri,Daporijo,"83,205","7,032",12
+51,WK,Arunachal Pradesh (AR),West Kameng,Bomdila,"87,013","7,422",12
+52,WS,Arunachal Pradesh (AR),West Siang,Aalo,"112,272","8,325",13
+53,-,Assam (AS),Bajali,Pathsala,"253,816",418,610
+54,BK,Assam (AS),Baksa,Mushalpur,"953,773","2,008",475
+55,BP,Assam (AS),Barpeta,Barpeta,"1,693,622","3,245",520
+56,BS,Assam (AS),Biswanath,Biswanath Chariali,"612,491","1,100",560
+57,BO,Assam (AS),Bongaigaon,Bongaigaon,"732,639","1,724",425
+58,CA,Assam (AS),Cachar,Silchar,"1,736,319","3,786",459
+59,CD,Assam (AS),Charaideo,Sonari,"471,418","1,069",440
+60,CH,Assam (AS),Chirang,Kajalgaon,"481,818","1,975",244
+61,DR,Assam (AS),Darrang,Mangaldoi,"908,090","1,849",491
+62,DM,Assam (AS),Dhemaji,Dhemaji,"688,077","3,237",213
+63,DU,Assam (AS),Dhubri,Dhubri,"1,948,632","2,838",687
+64,DI,Assam (AS),Dibrugarh,Dibrugarh,"1,327,748","3,381",393
+65,NC,Assam (AS),Dima Hasao,Haflong,"213,529","4,888",44
+66,GP,Assam (AS),Goalpara,Goalpara,"1,008,959","1,824",553
+67,GG,Assam (AS),Golaghat,Golaghat,"1,058,674","3,502",302
+68,HA,Assam (AS),Hailakandi,Hailakandi,"659,260","1,327",497
+69,HJ,Assam (AS),Hojai,Hojai,"931,218","1,686",550
+70,JO,Assam (AS),Jorhat,Jorhat,"1,091,295","2,851",383
+71,KU,Assam (AS),Kamrup,Amingaon,"1,517,202","3,480",436
+72,KM,Assam (AS),Kamrup Metropolitan,Guwahati,"1,260,419",627,"2,010"
+73,KG,Assam (AS),Karbi Anglong,Diphu,"965,280","10,434",93
+74,KR,Assam (AS),Karimganj,Karimganj,"1,217,002","1,809",673
+75,KJ,Assam (AS),Kokrajhar,Kokrajhar,"886,999","3,129",283
+76,LA,Assam (AS),Lakhimpur,North Lakhimpur,"1,040,644","2,277",457
+77,MJ,Assam (AS),Majuli,Garamur,"167,304",880,300
+78,MA,Assam (AS),Morigaon,Marigaon,"957,853","1,704",562
+79,NN,Assam (AS),Nagaon,Nagaon,"2,826,006","3,831",738
+80,NB,Assam (AS),Nalbari,Nalbari,"769,919","1,009",763
+81,ST,Assam (AS),Sivasagar,Sibsagar,"1,150,253","2,668",431
+82,SM,Assam (AS),South Salmara Mankachar,Hatsingimari,"555,114",568,980
+83,SO,Assam (AS),Sonitpur,Tezpur,"1,925,975","5,324",362
+84,,Assam (AS),Tamulpur,Tamulpur,"389,150",884,440
+85,TI,Assam (AS),Tinsukia,Tinsukia,"1,316,948","3,790",347
+86,UD,Assam (AS),Udalguri,Udalguri,"832,769","1,676",497
+87,WK,Assam (AS),West Karbi Anglong,Hamren,"300,320","3,035",99
+88,AR,Bihar (BR),Araria,Araria,"2,806,200","2,829",992
+89,AW,Bihar (BR),Arwal,Arwal,"700,843",638,"1,098"
+90,AU,Bihar (BR),Aurangabad,Aurangabad,"2,511,243","3,303",760
+91,BA,Bihar (BR),Banka,Banka,"2,029,339","3,018",672
+92,BE,Bihar (BR),Begusarai,Begusarai,"2,954,367","1,917","1,540"
+93,BG,Bihar (BR),Bhagalpur,Bhagalpur,"3,032,226","2,569","1,180"
+94,BJ,Bihar (BR),Bhojpur,Arrah,"2,720,155","2,473","1,136"
+95,BU,Bihar (BR),Buxar,Buxar,"1,707,643","1,624","1,003"
+96,DA,Bihar (BR),Darbhanga,Darbhanga,"3,921,971","2,278","1,721"
+97,EC,Bihar (BR),East Champaran,Motihari,"5,082,868","3,969","1,281"
+98,GA,Bihar (BR),Gaya,Gaya,"4,379,383","4,978",880
+99,GO,Bihar (BR),Gopalganj,Gopalganj,"2,558,037","2,033","1,258"
+100,JA,Bihar (BR),Jamui,Jamui,"1,756,078","3,099",567
+101,JE,Bihar (BR),Jehanabad,Jehanabad,"1,124,176","1,569","1,206"
+102,KM,Bihar (BR),Kaimur,Bhabua,"1,626,900","3,363",488
+103,KT,Bihar (BR),Katihar,Katihar,"3,068,149","3,056","1,004"
+104,KH,Bihar (BR),Khagaria,Khagaria,"1,657,599","1,486","1,115"
+105,KI,Bihar (BR),Kishanganj,Kishanganj,"1,690,948","1,884",898
+106,LA,Bihar (BR),Lakhisarai,Lakhisarai,"1,000,717","1,229",815
+107,MP,Bihar (BR),Madhepura,Madhepura,"1,994,618","1,787","1,116"
+108,MB,Bihar (BR),Madhubani,Madhubani,"4,476,044","3,501","1,279"
+109,MG,Bihar (BR),Munger,Munger,"1,359,054","1,419",958
+110,MZ,Bihar (BR),Muzaffarpur,Muzaffarpur,"4,778,610","3,173","1,506"
+111,NL,Bihar (BR),Nalanda,Bihar Sharif,"2,872,523","2,354","1,220"
+112,NW,Bihar (BR),Nawada,Nawada,"2,216,653","2,492",889
+113,PA,Bihar (BR),Patna,Patna,"5,772,804","3,202","1,803"
+114,PU,Bihar (BR),Purnia,Purnia,"3,273,127","3,228","1,014"
+115,RO,Bihar (BR),Rohtas,Sasaram,"2,962,593","3,850",763
+116,SH,Bihar (BR),Saharsa,Saharsa,"1,897,102","1,702","1,125"
+117,SM,Bihar (BR),Samastipur,Samastipur,"4,254,782","2,905","1,465"
+118,SR,Bihar (BR),Saran,Chhapra,"3,943,098","2,641","1,493"
+119,SP,Bihar (BR),Sheikhpura,Sheikhpura,"634,927",689,922
+120,SO,Bihar (BR),Sheohar,Sheohar,"656,916",443,"1,882"
+121,ST,Bihar (BR),Sitamarhi,Sitamarhi,"3,419,622","2,199","1,491"
+122,SW,Bihar (BR),Siwan,Siwan,"3,318,176","2,219","1,495"
+123,SU,Bihar (BR),Supaul,Supaul,"2,228,397","2,410",919
+124,VA,Bihar (BR),Vaishali,Hajipur,"3,495,021","2,036","1,717"
+125,WC,Bihar (BR),West Champaran,Bettiah,"3,935,042","5,229",753
+126, –,Chhattisgarh (CG),Balod,Balod,"826,165","3,527",234
+127, –,Chhattisgarh (CG),Baloda Bazar,Baloda Bazar,"1,305,343","4,748",275
+128, –,Chhattisgarh (CG),Balrampur-Ramanujganj,Balrampur,"730,491","3,806",190
+129,BA,Chhattisgarh (CG),Bastar,Jagdalpur,"834,873","4,030",210
+130, –,Chhattisgarh (CG),Bemetara,Bemetara,"795,759","2,855",270
+131,BJ,Chhattisgarh (CG),Bijapur,Bijapur,"229,832","6,562",35
+132,BI,Chhattisgarh (CG),Bilaspur,Bilaspur,"1,961,922","3,508",460
+133,DA,Chhattisgarh (CG),Dantewada,Dantewada,"533,638","3,411",59
+134,DH,Chhattisgarh (CG),Dhamtari,Dhamtari,"799,199","2,029",394
+135,DU,Chhattisgarh (CG),Durg,Durg,"1,721,726","2,238",770
+136, –,Chhattisgarh (CG),Gariaband,Gariaband,"597,653","5,823",103
+137, –,Chhattisgarh (CG),Gaurela-Pendra-Marwahi,Gaurela,"336,420","2,307",150
+138,JC,Chhattisgarh (CG),Janjgir-Champa,Janjgir,"1,620,632","3,848",421
+139,JA,Chhattisgarh (CG),Jashpur,Jashpur Nagar,"852,043","5,825",146
+140,KW,Chhattisgarh (CG),Kabirdham,Kawardha,"584,667","4,237",195
+141,KK,Chhattisgarh (CG),Kanker,Kanker,"748,593","6,513",115
+142, –,Chhattisgarh (CG),Khairagarh-Chhuikhadan-Gandai,Khairagarh,"368,444",-,
+143, –,Chhattisgarh (CG),Kondagaon,Kondagaon,"578,326","7,768",74
+144,KB,Chhattisgarh (CG),Korba,Korba,"1,206,563","6,615",183
+145,KJ,Chhattisgarh (CG),Korea,Baikunthpur,"659,039","6,578",100
+146,MA,Chhattisgarh (CG),Mahasamund,Mahasamund,"1,032,275","4,779",216
+147,MG,Chhattisgarh (CG),Manendragarh-Chirmiri-Bharatpur,Manendragarh,"422,248","1,726.39",
+148,MM,Chhattisgarh (CG),Mohla-Manpur-Chowki,Mohla,"283,947",-,
+149, –,Chhattisgarh (CG),Mungeli,Mungeli,"701,707","2,750",255
+150,NR,Chhattisgarh (CG),Narayanpur,Narayanpur,"140,206","6,640",20
+151,RG,Chhattisgarh (CG),Raigarh,Raigarh,"1,493,627","7,068",211
+152,RP,Chhattisgarh (CG),Raipur,Raipur,"2,160,876","2,892",750
+153,RN,Chhattisgarh (CG),Rajnandgaon,Rajnandgaon,"1,537,520","8,062",191
+154,SB,Chhattisgarh (CG),Sarangarh-Bilaigarh,Sarangarh,"607,434",-,
+155,ST,Chhattisgarh (CG),Shakti,Sakti,"653,036",-,
+156,SK,Chhattisgarh (CG),Sukma,Sukma,"250,159","5,897",42
+157, –,Chhattisgarh (CG),Surajpur,Surajpur,"789,043","2,787",280
+158,SJ,Chhattisgarh (CG),Surguja,Ambikapur,"839,661","3,265",150
+159,NG,Goa (GA),North Goa,Panaji,"817,761","1,736",471
+160,SG,Goa (GA),South Goa,Margao,"639,962","1,966",326
+161,AH,Gujarat (GJ),Ahmedabad,Ahmedabad,"7,208,200",7170,890
+162,AM,Gujarat (GJ),Amreli,Amreli,"1,513,614","6,760",205
+163,AN,Gujarat (GJ),Anand,Anand,"2,090,276","2,942",711
+164,AR,Gujarat (GJ),Aravalli,Modasa,"1,051,746","3,217",327
+165,BK,Gujarat (GJ),Banaskantha,Palanpur,"3,116,045","12,703",290
+166,BR,Gujarat (GJ),Bharuch,Bharuch,"1,550,822","6,524",238
+167,BV,Gujarat (GJ),Bhavnagar,Bhavnagar,"2,877,961","11,155",288
+168,BT,Gujarat (GJ),Botad,Botad,"656,005","2,564",256
+169,CU,Gujarat (GJ),Chhota Udaipur,Chhota Udaipur,"1,071,831","3,237",331
+170,DA,Gujarat (GJ),Dahod,Dahod,"2,126,558","3,642",582
+171,DG,Gujarat (GJ),Dang,Ahwa,"226,769","1,764",129
+172,DD,Gujarat (GJ),Devbhumi Dwarka,Khambhalia,"752,484","5,684",132
+173,GA,Gujarat (GJ),Gandhinagar,Gandhinagar,"1,387,478",2163,660
+174,GS,Gujarat (GJ),Gir Somnath,Veraval,"1,217,477","3,754",324
+175,JA,Gujarat (GJ),Jamnagar,Jamnagar,"2,159,130","14,125",153
+176,JU,Gujarat (GJ),Junagadh,Junagadh,"2,742,291","8,839",310
+177,KH,Gujarat (GJ),Kheda,Nadiad,"2,298,934","4,215",541
+178,KA,Gujarat (GJ),Kutch,Bhuj,"2,090,313","45,652",46
+179,MH,Gujarat (GJ),Mahisagar,Lunavada,"994,624","2,500",440
+180,MA,Gujarat (GJ),Mehsana,Mehsana,"2,027,727","4,386",462
+181,MB,Gujarat (GJ),Morbi,Morbi,"960,329","4,871",197
+182,NR,Gujarat (GJ),Narmada,Rajpipla,"590,379","2,749",214
+183,NV,Gujarat (GJ),Navsari,Navsari,"1,330,711","2,211",602
+184,PM,Gujarat (GJ),Panchmahal,Godhra,"2,388,267","5,219",458
+185,PA,Gujarat (GJ),Patan,Patan,"1,342,746","5,738",234
+186,PO,Gujarat (GJ),Porbandar,Porbandar,"586,062","2,294",255
+187,RA,Gujarat (GJ),Rajkot,Rajkot,"3,157,676","11,203",282
+188,SK,Gujarat (GJ),Sabarkantha,Himatnagar,"2,427,346","7,390",328
+189,ST,Gujarat (GJ),Surat,Surat,"6,081,322","4,418",953
+190,SN,Gujarat (GJ),Surendranagar,Surendranagar,"1,755,873","10,489",167
+191,TA,Gujarat (GJ),Tapi,Vyara,"806,489","3,435",249
+192,VD,Gujarat (GJ),Vadodara,Vadodara,"3,639,775",4312,467
+193,VL,Gujarat (GJ),Valsad,Valsad,"1,703,068","3,034",561
+194,AM,Haryana (HR),Ambala,Ambala,"1,136,784","1,569",722
+195,BH,Haryana (HR),Bhiwani,Bhiwani,"1,629,109","5,140",341
+196,CD,Haryana (HR),Charkhi Dadri,Charkhi Dadri,"502,276",1370,367
+197,HR,Haryana (HR),Faridabad,Faridabad,"1,798,954",783,"2,298"
+198,FT,Haryana (HR),Fatehabad,Fatehabad,"941,522","2,538",371
+199,GU,Haryana (HR),Gurugram,Gurugram,"1,514,085","1,258","1,241"
+200,HI,Haryana (HR),Hisar,Hisar,"1,742,815","3,788",438
+201,JH,Haryana (HR),Jhajjar,Jhajjar,"956,907","1,868",522
+202,JI,Haryana (HR),Jind,Jind,"1,332,042","2,702",493
+203,KT,Haryana (HR),Kaithal,Kaithal,"1,072,861","2,799",467
+204,KR,Haryana (HR),Karnal,Karnal,"1,506,323","2,471",598
+205,KU,Haryana (HR),Kurukshetra,Kurukshetra,"964,231","1,530",630
+206,MA,Haryana (HR),Mahendragarh,Narnaul,"921,680","1,900",485
+207,MW,Haryana (HR),Nuh,Nuh,"1,089,406","1,765",729
+208,PW,Haryana (HR),Palwal,Palwal,"1,040,493","1,367",761
+209,PK,Haryana (HR),Panchkula,Panchkula,"558,890",816,622
+210,PP,Haryana (HR),Panipat,Panipat,"1,202,811","1,250",949
+211,RE,Haryana (HR),Rewari,Rewari,"896,129","1,559",562
+212,RO,Haryana (HR),Rohtak,Rohtak,"1,058,683","1,668",607
+213,SI,Haryana (HR),Sirsa,Sirsa,"1,295,114","4,276",303
+214,SNP,Haryana (HR),Sonipat,Sonipat,"1,480,080","2,260",697
+215,YN,Haryana (HR),Yamunanagar,Yamunanagar,"1,214,162","1,756",687
+216,BI,Himachal Pradesh (HP),Bilaspur,Bilaspur,"382,056","1,167",327
+217,CH,Himachal Pradesh (HP),Chamba,Chamba,"518,844","6,528",80
+218,HA,Himachal Pradesh (HP),Hamirpur,Hamirpur,"454,293","1,118",406
+219,KA,Himachal Pradesh (HP),Kangra,Dharamshala,"1,507,223","5,739",263
+220,KI,Himachal Pradesh (HP),Kinnaur,Reckong Peo,"84,298","6,401",13
+221,KU,Himachal Pradesh (HP),Kullu,Kullu,"437,474","5,503",79
+222,LS,Himachal Pradesh (HP),Lahaul and Spiti,Keylong,"31,528","13,835",2
+223,MA,Himachal Pradesh (HP),Mandi,Mandi,"999,518","3,950",253
+224,SH,Himachal Pradesh (HP),Shimla,Shimla,"813,384","5,131",159
+225,SI,Himachal Pradesh (HP),Sirmaur,Nahan,"530,164","2,825",188
+226,SO,Himachal Pradesh (HP),Solan,Solan,"576,670","1,936",298
+227,UN,Himachal Pradesh (HP),Una,Una,"521,057","1,540",328
+228,BO,Jharkhand (JH),Bokaro,Bokaro,"2,061,918","2,883",716
+229,CH,Jharkhand (JH),Chatra,Chatra,"1,042,304","3,700",275
+230,DE,Jharkhand (JH),Deoghar,Deoghar,"1,491,879","2,479",602
+231,DH,Jharkhand (JH),Dhanbad,Dhanbad,"2,682,662","2,040","1,316"
+232,DU,Jharkhand (JH),Dumka,Dumka,"1,321,096","4,404",300
+233,ES,Jharkhand (JH),East Singhbhum,Jamshedpur,"2,291,032","3,562",648
+234,GA,Jharkhand (JH),Garhwa,Garhwa,"1,322,387","4,064",327
+235,GI,Jharkhand (JH),Giridih,Giridih,"2,445,203","4,887",497
+236,GO,Jharkhand (JH),Godda,Godda,"1,311,382","2,110",622
+237,GU,Jharkhand (JH),Gumla,Gumla,"1,025,656","5,360",191
+238,HA,Jharkhand (JH),Hazaribag,Hazaribag,"1,734,495","3,555",488
+239,JA,Jharkhand (JH),Jamtara,Jamtara,"790,207","1,802",439
+240,KH,Jharkhand (JH),Khunti,Khunti,"530,299","2,535",210
+241,KO,Jharkhand (JH),Koderma,Koderma,"716,259","2,540",282
+242,LA,Jharkhand (JH),Latehar,Latehar,"725,673","3,630",200
+243,LO,Jharkhand (JH),Lohardaga,Lohardaga,"461,738","1,502",307
+244,PK,Jharkhand (JH),Pakur,Pakur,"899,200","1,805",498
+245,PL,Jharkhand (JH),Palamu,Daltonganj,"1,936,319","4,393",442
+246,RM,Jharkhand (JH),Ramgarh,Ramgarh,"949,159","1,341",708
+247,RA,Jharkhand (JH),Ranchi,Ranchi,"2,912,022","5,097",572
+248,SA,Jharkhand (JH),Sahibganj,Sahebganj,"1,150,038","2,063",558
+249,SK,Jharkhand (JH),Seraikela-Kharsawan,Seraikela,"1,063,458","2,657",401
+250,SI,Jharkhand (JH),Simdega,Simdega,"599,813","3,750",160
+251,WS,Jharkhand (JH),West Singhbhum,Chaibasa,"1,501,619","7,224",209
+252,BK,Karnataka (KA),Bagalakote,Bagalakote,"1,890,826","6,583",288
+253,BL,Karnataka (KA),Ballari,Ballari,"1,400,970","4,252",330
+254,BG,Karnataka (KA),Belagavi,Belagavi,"4,778,439","13,415",356
+255,BR,Karnataka (KA),Bengaluru Rural,Bengaluru,"987,257","2,239",441
+256,BN,Karnataka (KA),Bengaluru Urban,Bengaluru,"9,588,910","2,190","4,378"
+257,BD,Karnataka (KA),Bidar,Bidar,"1,700,018","5,448",312
+258,CJ,Karnataka (KA),Chamarajanagara,Chamarajanagara,"1,020,962","5,102",200
+259,CK,Karnataka (KA),Chikkaballapura,Chikkaballapura,"1,254,377","4,208",298
+260,CK,Karnataka (KA),Chikkamagaluru,Chikkamagaluru,"1,137,753","7,201",158
+261,CT,Karnataka (KA),Chitradurga,Chitradurga,"1,660,378","8,437",197
+262,DK,Karnataka (KA),Dakshina Kannada,Mangalore,"2,083,625","4,559",457
+263,DA,Karnataka (KA),Davanagere,Davangere,"1,643,494","4,460",370
+264,DH,Karnataka (KA),Dharwada,Dharwada,"1,846,993","4,265",434
+265,GA,Karnataka (KA),Gadaga,Gadag-Betageri,"1,065,235","4,651",229
+266,GU,Karnataka (KA),Kalaburagi,Kalaburagi,"2,564,892","10,990",233
+267,HS,Karnataka (KA),Hassan,Hassan,"1,776,221","6,814",261
+268,HV,Karnataka (KA),Haveri,Haveri,"1,598,506","4,825",331
+269,KD,Karnataka (KA),Kodagu,Madikeri,"554,762","4,102",135
+270,KL,Karnataka (KA),Kolar,Kolar,"1,540,231","4,012",384
+271,KP,Karnataka (KA),Koppala,Koppala,"1,391,292","5,565",250
+272,MA,Karnataka (KA),Mandya,Mandya,"1,808,680","4,961",365
+273,MY,Karnataka (KA),Mysuru,Mysuru,"2,994,744","6,854",437
+274,RA,Karnataka (KA),Raichuru,Raichuru,"1,924,773","6,839",228
+275,RM,Karnataka (KA),Ramanagara,Ramanagara,"1,082,739","3,573",303
+276,SH,Karnataka (KA),Shivamogga,Shivamogga,"1,755,512","8,495",207
+277,TU,Karnataka (KA),Tumakuru,Tumakuru,"2,681,449","10,598",253
+278,UD,Karnataka (KA),Udupi,Udupi,"1,177,908","3,879",304
+279,UK,Karnataka (KA),Uttara Kannada,Karwar,"1,353,299","10,291",132
+280,,Karnataka (KA),Vijayanagara,Hospete,"1,353,628","5,644",240
+281,BJ,Karnataka (KA),Vijayapura,Vijayapura,"2,175,102","10,517",207
+282,YG,Karnataka (KA),Yadgiri,Yadgiri,"1,172,985","5,225",224
+283,AL,Kerala (KL),Alappuzha,Alappuzha,"2,121,943","1,415","1,501"
+284,ER,Kerala (KL),Ernakulam,Kakkanad,"3,279,860","3,063","1,069"
+285,ID,Kerala (KL),Idukki,Painavu,"1,107,453","4,356",254
+286,KN,Kerala (KL),Kannur,Kannur,"2,525,637","2,961",852
+287,KS,Kerala (KL),Kasaragod,Kasaragod,"1,302,600","1,989",654
+288,KL,Kerala (KL),Kollam,Kollam,"2,629,703","2,483","1,056"
+289,KT,Kerala (KL),Kottayam,Kottayam,"1,979,384","2,206",896
+290,KZ,Kerala (KL),Kozhikode,Kozhikode,"3,089,543","2,345","1,318"
+291,MA,Kerala (KL),Malappuram,Malappuram,"4,110,956","3,554","1,058"
+292,PL,Kerala (KL),Palakkad,Palakkad,"2,810,892","4,482",627
+293,PT,Kerala (KL),Pathanamthitta,Pathanamthitta,"1,195,537","2,652",453
+294,TS,Kerala (KL),Thrissur,Thrissur,"3,110,327","3,027","1,026"
+295,TV,Kerala (KL),Thiruvananthapuram,Thiruvananthapuram,"3,307,284","2,189","1,509"
+296,WA,Kerala (KL),Wayanad,Kalpetta,"816,558","2,130",383
+297,AG,Madhya Pradesh (MP),Agar Malwa,Agar,"571,275","2,785",205
+298,AL,Madhya Pradesh (MP),Alirajpur,Alirajpur,"728,677","3,182",229
+299,AP,Madhya Pradesh (MP),Anuppur,Anuppur,"749,521","3,747",200
+300,AS,Madhya Pradesh (MP),Ashoknagar,Ashoknagar,"844,979","4,674",181
+301,BL,Madhya Pradesh (MP),Balaghat,Balaghat,"1,701,156","9,229",184
+302,BR,Madhya Pradesh (MP),Barwani,Barwani,"1,385,659","5,432",256
+303,BE,Madhya Pradesh (MP),Betul,Betul,"1,575,247","10,043",157
+304,BD,Madhya Pradesh (MP),Bhind,Bhind,"1,703,562","4,459",382
+305,BP,Madhya Pradesh (MP),Bhopal,Bhopal,"2,368,145","2,772",854
+306,BU,Madhya Pradesh (MP),Burhanpur,Burhanpur,"756,993","3,427",221
+307,CT,Madhya Pradesh (MP),Chhatarpur,Chhatarpur,"1,762,857","8,687",203
+308,CN,Madhya Pradesh (MP),Chhindwara,Chhindwara,"2,090,306","11,815",177
+309,DM,Madhya Pradesh (MP),Damoh,Damoh,"1,263,703","7,306",173
+310,DT,Madhya Pradesh (MP),Datia,Datia,"786,375","2,694",292
+311,DE,Madhya Pradesh (MP),Dewas,Dewas,"1,563,107","7,020",223
+312,DH,Madhya Pradesh (MP),Dhar,Dhar,"2,184,672","8,153",268
+313,DI,Madhya Pradesh (MP),Dindori,Dindori,"704,218","7,427",94
+314,GU,Madhya Pradesh (MP),Guna,Guna,"1,240,938","6,485",194
+315,GW,Madhya Pradesh (MP),Gwalior,Gwalior,"2,030,543","5,465",445
+316,HA,Madhya Pradesh (MP),Harda,Harda,"570,302","3,339",171
+317,HO,Madhya Pradesh (MP),Hoshangabad,Hoshangabad,"1,240,975","6,698",185
+318,IN,Madhya Pradesh (MP),Indore,Indore,"3,272,335","3,898",839
+319,JA,Madhya Pradesh (MP),Jabalpur,Jabalpur,"2,460,714","5,210",472
+320,JH,Madhya Pradesh (MP),Jhabua,Jhabua,"1,024,091","6,782",285
+321,KA,Madhya Pradesh (MP),Katni,Katni,"1,291,684","4,947",261
+322,EN,Madhya Pradesh (MP),Khandwa (East Nimar),Khandwa,"1,309,443","7,349",178
+323,WN,Madhya Pradesh (MP),Khargone (West Nimar),Khargone,"1,872,413","8,010",233
+324,ML,Madhya Pradesh (MP),Mandla,Mandla,"1,053,522","5,805",182
+325,MS,Madhya Pradesh (MP),Mandsaur,Mandsaur,"1,339,832","5,530",242
+326,MO,Madhya Pradesh (MP),Morena,Morena,"1,965,137","4,991",394
+327,NA,Madhya Pradesh (MP),Narsinghpur,Narsinghpur,"1,092,141","5,133",213
+328,NE,Madhya Pradesh (MP),Neemuch,Neemuch,"825,958","4,267",194
+329, –,Madhya Pradesh (MP),Niwari,Niwari,"404,807","1,170",345
+330,PA,Madhya Pradesh (MP),Panna,Panna,"1,016,028","7,135",142
+331,RS,Madhya Pradesh (MP),Raisen,Raisen,"1,331,699","8,466",157
+332,RG,Madhya Pradesh (MP),Rajgarh,Rajgarh,"1,546,541","6,143",251
+333,RL,Madhya Pradesh (MP),Ratlam,Ratlam,"1,454,483","4,861",299
+334,RE,Madhya Pradesh (MP),Rewa,Rewa,"2,363,744","6,314",374
+335,SG,Madhya Pradesh (MP),Sagar,Sagar,"2,378,295","10,252",272
+336,ST,Madhya Pradesh (MP),Satna,Satna,"2,228,619","7,502",297
+337,SR,Madhya Pradesh (MP),Sehore,Sehore,"1,311,008","6,578",199
+338,SO,Madhya Pradesh (MP),Seoni,Seoni,"1,378,876","8,758",157
+339,SH,Madhya Pradesh (MP),Shahdol,Shahdol,"1,064,989","6,205",172
+340,SJ,Madhya Pradesh (MP),Shajapur,Shajapur,"1,512,353","6,196",244
+341,SP,Madhya Pradesh (MP),Sheopur,Sheopur,"687,952","6,585",104
+342,SV,Madhya Pradesh (MP),Shivpuri,Shivpuri,"1,725,818","10,290",168
+343,SI,Madhya Pradesh (MP),Sidhi,Sidhi,"1,126,515","10,520",232
+344,SN,Madhya Pradesh (MP),Singrauli,Waidhan,"1,178,132","5,672",208
+345,TI,Madhya Pradesh (MP),Tikamgarh,Tikamgarh,"1,444,920","5,055",286
+346,UJ,Madhya Pradesh (MP),Ujjain,Ujjain,"1,986,864","6,091",356
+347,UM,Madhya Pradesh (MP),Umaria,Umaria,"643,579","4,062",158
+348,VI,Madhya Pradesh (MP),Vidisha,Vidisha,"1,458,212","7,362",198
+349,AH,Maharashtra (MH),Ahmednagar,Ahmednagar,"4,543,083","17,048",266
+350,AK,Maharashtra (MH),Akola,Akola,"1,818,617","5,429",321
+351,AM,Maharashtra (MH),Amravati,Amravati,"2,887,826","12,235",237
+352,BI,Maharashtra (MH),Beed,Beed,"2,585,962","10,693",242
+353,BH,Maharashtra (MH),Bhandara,Bhandara,"1,198,810","3,890",293
+354,BU,Maharashtra (MH),Buldhana,Buldhana,"2,588,039","9,661",268
+355,CH,Maharashtra (MH),Chandrapur,Chandrapur,"2,194,262","11,443",192
+356,OS,Maharashtra (MH),Dharashiv,Dharashiv,"1,660,311","7,569",219
+357,DH,Maharashtra (MH),Dhule,Dhule,"2,048,781","8,095",285
+358,GA,Maharashtra (MH),Gadchiroli,Gadchiroli,"1,071,795","14,412",74
+359,GO,Maharashtra (MH),Gondia,Gondia,"1,322,331","5,431",253
+360,HI,Maharashtra (MH),Hingoli,Hingoli,"1,178,973","4,526",244
+361,JG,Maharashtra (MH),Jalgaon,Jalgaon,"4,224,442","11,765",359
+362,JN,Maharashtra (MH),Jalna,Jalna,"1,958,483","7,718",255
+363,KO,Maharashtra (MH),Kolhapur,Kolhapur,"3,874,015","7,685",504
+364,LA,Maharashtra (MH),Latur,Latur,"2,455,543","7,157",343
+365,MC,Maharashtra (MH),Mumbai City,Mumbai,"3,145,966",157,"20,036"
+366,MU,Maharashtra (MH),Mumbai Suburban,Bandra (East),"9,332,481",446,"21,000"
+367,ND,Maharashtra (MH),Nanded,Nanded,"3,356,566","10,528",319
+368,NB,Maharashtra (MH),Nandurbar,Nandurbar,"1,646,177","5,055",276
+369,NG,Maharashtra (MH),Nagpur,Nagpur,"4,653,171","9,892",470
+370,NS,Maharashtra (MH),Nashik,Nashik,"6,109,052","15,539",393
+371,PL,Maharashtra (MH),Palghar,Palghar,"2,990,116","5,344",560
+372,PA,Maharashtra (MH),Parbhani,Parbhani,"1,835,982","6,511",295
+373,PU,Maharashtra (MH),Pune,Pune,"9,426,959","15,643",603
+374,RG,Maharashtra (MH),Raigad,Alibag,"2,635,394","7,152",368
+375,RT,Maharashtra (MH),Ratnagiri,Ratnagiri,"1,612,672","8,208",196
+376,AU,Maharashtra (MH),Sambhajinagar,Sambhajinagar,"3,695,928","10,107",365
+377,SN,Maharashtra (MH),Sangli,Sangli,"2,820,575","8,572",329
+378,ST,Maharashtra (MH),Satara,Satara,"3,003,922","10,475",287
+379,SI,Maharashtra (MH),Sindhudurg,Oros,"848,868","5,207",163
+380,SO,Maharashtra (MH),Solapur,Solapur,"4,315,527","14,895",290
+381,TH,Maharashtra (MH),Thane,Thane,"8,070,032","4,214","1,915"
+382,WR,Maharashtra (MH),Wardha,Wardha,"1,296,157","6,309",205
+383,WS,Maharashtra (MH),Washim,Washim,"1,196,714","5,155",244
+384,YA,Maharashtra (MH),Yavatmal,Yavatmal,"2,775,457","13,582",204
+385,BPR,Manipur (MN),Bishnupur,Bishnupur,"240,363",496,415
+386,CDL,Manipur (MN),Chandel,Chandel,"144,028","3,317",37
+387,CCpr,Manipur (MN),Churachandpur,Churachandpur,"271,274","4,574",50
+388,IE,Manipur (MN),Imphal East,Porompat,"452,661",710,555
+389,IW,Manipur (MN),Imphal West,Lamphelpat,"514,683",519,847
+390,JBM,Manipur (MN),Jiribam,Jiribam,"43,818",232,190
+391,KAK,Manipur (MN),Kakching,Kakching,"135,481",190,710
+392,KJ,Manipur (MN),Kamjong,Kamjong,"45,616","2,000",23
+393,KPI,Manipur (MN),Kangpokpi,Kangpokpi,"193,744","1,698",110
+394,NL,Manipur (MN),Noney,Noney (Longmai), –, –, –
+395,PZ,Manipur (MN),Pherzawl,Pherzawl,"47,250","2,285",21
+396,SE,Manipur (MN),Senapati,Senapati,"354,772","3,269",116
+397,TML,Manipur (MN),Tamenglong,Tamenglong,"140,143","4,391",25
+398,TNL,Manipur (MN),Tengnoupal,Tengnoupal,"59,110","1,213",49
+399,TBL,Manipur (MN),Thoubal,Thoubal,"420,517",514,713
+400,UKR,Manipur (MN),Ukhrul,Ukhrul,"183,115","4,547",31
+401,EG,Meghalaya (ML),East Garo Hills,Williamnagar,"317,618","2,603",121
+402,EK,Meghalaya (ML),East Khasi Hills,Shillong,"824,059","2,752",292
+403, –,Meghalaya (ML),East Jaintia Hills,Khliehriat,"122,436","2,115",58
+404, –,Meghalaya (ML),Eastern West Khasi Hills,Mairang,"131,451","1,356",97
+405, –,Meghalaya (ML),North Garo Hills,Resubelpara,"118,325","1,113",106
+406,RB,Meghalaya (ML),Ri Bhoi,Nongpoh,"258,380","2,378",109
+407,SG,Meghalaya (ML),South Garo Hills,Baghmara,"142,574","1,850",77
+408, –,Meghalaya (ML),South West Garo Hills,Ampati,"172,495",822,210
+409, –,Meghalaya (ML),South West Khasi Hills,Mawkyrwat,"110,152","1,341",82
+410,WG,Meghalaya (ML),West Garo Hills,Tura,"642,923","3,714",173
+411,WJ,Meghalaya (ML),West Jaintia Hills,Jowai,"270,352","1,693",160
+412,WK,Meghalaya (ML),West Khasi Hills,Nongstoin,"385,601","5,247",73
+413,AI,Mizoram (MZ),Aizawl,Aizawl,"404,054","3,577",113
+414,CH,Mizoram (MZ),Champhai,Champhai,"125,370","3,168",39
+415,-,Mizoram (MZ),Hnahthial,Hnahthial,"28,468",–,–
+416,-,Mizoram (MZ),Khawzawl,Khawzawl,–,–,–
+417,KO,Mizoram (MZ),Kolasib,Kolasib,"83,054","1,386",60
+418,LA,Mizoram (MZ),Lawngtlai,Lawngtlai,"117,444","2,519",46
+419,LU,Mizoram (MZ),Lunglei,Lunglei,"154,094","4,572",34
+420,MA,Mizoram (MZ),Mamit,Mamit,"85,757","2,967",28
+421,SA,Mizoram (MZ),Saiha,Saiha,"56,366","1,414",40
+422,-,Mizoram (MZ),Saitual,Saitual,–,–,–
+423,SE,Mizoram (MZ),Serchhip,Serchhip,"64,875","1,424",46
+424, –,Nagaland (NL),Chümoukedima,Chümoukedima,"125,400",570,220
+425,DI,Nagaland (NL),Dimapur,Dimapur,"379,769",926,410
+426,KI,Nagaland (NL),Kiphire,Kiphire,"74,033","1,255",66
+427,KO,Nagaland (NL),Kohima,Kohima,"270,063","1,041",213
+428,LO,Nagaland (NL),Longleng,Longleng,"50,593",885,89
+429,MK,Nagaland (NL),Mokokchung,Mokokchung,"193,171","1,615",120
+430,MN,Nagaland (NL),Mon,Mon,"259,604","1,786",145
+431, –,Nagaland (NL),Niuland,Niuland,"11,876",–,–
+432, –,Nagaland (NL),Noklak,Noklak,"59,300","1,152",51
+433,PE,Nagaland (NL),Peren,Peren,"163,294","2,300",55
+434,PH,Nagaland (NL),Phek,Phek,"163,294","2,026",81
+435, –,Nagaland (NL),Shamator,Shamator,"34,223", –, –
+436, –,Nagaland (NL),Tseminyü,Tseminyü,"63,629",256,249
+437,TU,Nagaland (NL),Tuensang,Tuensang,"414,801","4,228",98
+438,WO,Nagaland (NL),Wokha,Wokha,"166,239","1,628",120
+439,ZU,Nagaland (NL),Zunheboto,Zunheboto,"141,014","1,255",112
+440,AN,Odisha (OD),Angul,Angul,"1,271,703","6,232",199
+441,BD,Odisha (OD),Boudh (Bauda),Boudh,"439,917","3,098",142
+442,BH,Odisha (OD),Bhadrak,Bhadrak,"1,506,522","2,505",601
+443,BL,Odisha (OD),Balangir,Balangir,"1,648,574","6,575",251
+444,BR,Odisha (OD),Bargarh (Baragarh),Bargarh,"1,478,833","5,837",253
+445,BW,Odisha (OD),Balasore,Balasore,"2,317,419","3,634",609
+446,CU,Odisha (OD),Cuttack,Cuttack,"2,618,708","3,932",666
+447,DE,Odisha (OD),Debagarh (Deogarh),Debagarh,"312,164","2,781",106
+448,DH,Odisha (OD),Dhenkanal,Dhenkanal,"1,192,948","4,452",268
+449,GN,Odisha (OD),Ganjam,Chhatrapur,"3,520,151","8,070.60",429
+450,GP,Odisha (OD),Gajapati,Paralakhemundi,"575,880","3,850",133
+451,JH,Odisha (OD),Jharsuguda,Jharsuguda,"579,499","2,081",274
+452,JP,Odisha (OD),Jajpur,Panikoili,"1,826,275","2,888",630
+453,JS,Odisha (OD),Jagatsinghpur,Jagatsinghpur,"1,136,604","1,759",681
+454,KH,Odisha (OD),Khordha,Khordha,"2,246,341","2,887.50",799
+455,KJ,Odisha (OD),Kendujhar,Kendujhar,"1,802,777","8,240",217
+456,KL,Odisha (OD),Kalahandi,Bhawanipatna,"1,573,054","7,920",199
+457,KN,Odisha (OD),Kandhamal,Phulbani,"731,952","8,021",91
+458,KO,Odisha (OD),Koraput,Koraput,"1,376,934","8,807",156
+459,KP,Odisha (OD),Kendrapara,Kendrapara,"1,439,891","2,644",545
+460,ML,Odisha (OD),Malkangiri,Malkangiri,"612,727","5,791",106
+461,MY,Odisha (OD),Mayurbhanj,Baripada,"2,513,895","10,418",241
+462,NB,Odisha (OD),Nabarangpur,Nabarangpur,"1,218,762","5,294",230
+463,NU,Odisha (OD),Nuapada,Nuapada,"606,490","3,408",157
+464,NY,Odisha (OD),Nayagarh,Nayagarh,"962,215","3,890",247
+465,PU,Odisha (OD),Puri,Puri,"1,697,983","3,051",488
+466,RA,Odisha (OD),Rayagada,Rayagada,"961,959","7,584.70",136
+467,SA,Odisha (OD),Sambalpur,Sambalpur,"1,044,410","6,702",158
+468,SO,Odisha (OD),Subarnapur (Sonepur),Subarnapur,"652,107","2,284",279
+469,SU,Odisha (OD),Sundargarh,Sundergarh,"2,080,664","9,712",214
+470,AM,Punjab (PB),Amritsar,Amritsar,"2,490,891","2,673",932
+471,BNL,Punjab (PB),Barnala,Barnala,"596,294","1,423",419
+472,BA,Punjab (PB),Bathinda,Bathinda,"1,388,859","3,355",414
+473,FI,Punjab (PB),Firozpur,Firozpur,"2,026,831","5,334",380
+474,FR,Punjab (PB),Faridkot,Faridkot,"618,008","1,472",424
+475,FT,Punjab (PB),Fatehgarh Sahib,Fatehgarh Sahib,"599,814","1,180",508
+476,FA,Punjab (PB),Fazilka,Fazilka,"1,180,483",3113,379
+477,GU,Punjab (PB),Gurdaspur,Gurdaspur,"2,299,026","3,542",649
+478,HO,Punjab (PB),Hoshiarpur,Hoshiarpur,"1,582,793","3,397",466
+479,JA,Punjab (PB),Jalandhar,Jalandhar,"2,181,753","2,625",831
+480,KA,Punjab (PB),Kapurthala,Kapurthala,"817,668","1,646",501
+481,LU,Punjab (PB),Ludhiana,Ludhiana,"3,487,882","3,744",975
+482,ML,Punjab (PB),Malerkotla,Malerkotla,"429,754",684,629
+483,MA,Punjab (PB),Mansa,Mansa,"768,808","2,174",350
+484,MO,Punjab (PB),Moga,Moga,"992,289","2,235",444
+485,MU,Punjab (PB),Sri Muktsar Sahib,Sri Muktsar Sahib,"902,702","2,596",348
+486,PA,Punjab (PB),Pathankot,Pathankot,"626,154",929,674
+487,PA,Punjab (PB),Patiala,Patiala,"2,892,282","3,175",596
+488,RU,Punjab (PB),Rupnagar,Rupnagar,"683,349","1,400",488
+489,SAS,Punjab (PB),Sahibzada Ajit Singh Nagar,Sahibzada Ajit Singh Nagar,"986,147","1,188",830
+490,SA,Punjab (PB),Sangrur,Sangrur,"1,654,408","3,685",449
+491,PB,Punjab (PB),Shahid Bhagat Singh Nagar,Nawanshehr,"614,362","1,283",479
+492,TT,Punjab (PB),Tarn Taran,Tarn Taran Sahib,"1,120,070","2,414",464
+493,AJ,Rajasthan (RJ),Ajmer,Ajmer,"2,584,913","8,481",305
+494,AL,Rajasthan (RJ),Alwar,Alwar,"3,671,999","8,380",438
+495,BI,Rajasthan (RJ),Bikaner,Bikaner,"2,367,745","27,244",78
+496,BM,Rajasthan (RJ),Barmer,Barmer,"2,604,453","28,387",92
+497,BN,Rajasthan (RJ),Banswara,Banswara,"1,798,194","5,037",399
+498,BP,Rajasthan (RJ),Bharatpur,Bharatpur,"2,549,121","5,066",503
+499,BR,Rajasthan (RJ),Baran,Baran,"1,223,921","6,955",175
+500,BU,Rajasthan (RJ),Bundi,Bundi,"1,113,725","5,550",193
+501,BW,Rajasthan (RJ),Bhilwara,Bhilwara,"2,410,459","10,455",230
+502,CR,Rajasthan (RJ),Churu,Churu,"2,041,172","16,830",148
+503,CT,Rajasthan (RJ),Chittorgarh,Chittorgarh,"1,544,392","10,856",193
+504,DA,Rajasthan (RJ),Dausa,Dausa,"1,637,226","3,429",476
+505,DH,Rajasthan (RJ),Dholpur,Dholpur,"1,207,293","3,084",398
+506,DU,Rajasthan (RJ),Dungarpur,Dungarpur,"1,388,906","3,771",368
+507,GA,Rajasthan (RJ),Sri Ganganagar,Sri Ganganagar,"1,969,520","10,990",179
+508,HA,Rajasthan (RJ),Hanumangarh,Hanumangarh,"1,779,650","9,670",184
+509,JJ,Rajasthan (RJ),Jhunjhunu,Jhunjhunu,"2,139,658","5,928",361
+510,JL,Rajasthan (RJ),Jalore,Jalore,"1,830,151","10,640",172
+511,JO,Rajasthan (RJ),Jodhpur,Jodhpur,"3,685,681","22,850",161
+512,JP,Rajasthan (RJ),Jaipur,Jaipur,"6,663,971","11,152",598
+513,JS,Rajasthan (RJ),Jaisalmer,Jaisalmer,"672,008","38,401",17
+514,JW,Rajasthan (RJ),Jhalawar,Jhalawar,"1,411,327","6,219",227
+515,KA,Rajasthan (RJ),Karauli,Karauli,"1,458,459","5,530",264
+516,KO,Rajasthan (RJ),Kota,Kota,"1,950,491","5,446",374
+517,NA,Rajasthan (RJ),Nagaur,Nagaur,"3,309,234","17,718",187
+518,PA,Rajasthan (RJ),Pali,Pali,"2,038,533","12,387",165
+519,PG,Rajasthan (RJ),Pratapgarh,Pratapgarh,"867,848","4,112",211
+520,RA,Rajasthan (RJ),Rajsamand,Rajsamand,"1,158,283","3,853",302
+521,SK,Rajasthan (RJ),Sikar,Sikar,"2,677,737","7,732",346
+522,SM,Rajasthan (RJ),Sawai Madhopur,Sawai Madhopur,"1,338,114","4,500",257
+523,SR,Rajasthan (RJ),Sirohi,Sirohi,"1,037,185","5,136",202
+524,TO,Rajasthan (RJ),Tonk,Tonk,"1,421,711","7,194",198
+525,UD,Rajasthan (RJ),Udaipur,Udaipur,"3,067,549","13,430",242
+526,ES,Sikkim (SK),East Sikkim,Gangtok,"281,293",954,295
+527,NS,Sikkim (SK),North Sikkim,Mangan,"43,354","4,226",10
+528,PS,Sikkim (SK),Pakyong,Pakyong,"74,583",404,180
+529,,Sikkim (SK),Soreng,Soreng,"64,760",293,221
+530,SS,Sikkim (SK),South Sikkim,Namchi,"146,742",750,196
+531,WS,Sikkim (SK),West Sikkim,Gyalshing,"136,299","1,166",117
+532,AY,Tamil Nadu (TN),Ariyalur,Ariyalur,"752,481","3,208",387
+533,CGL,Tamil Nadu (TN),Chengalpattu,Chengalpattu,"2,556,244","2,945",868
+534,CH,Tamil Nadu (TN),Chennai,Chennai,"7,139,882",426,"17,000"
+535,CO,Tamil Nadu (TN),Coimbatore,Coimbatore,"3,472,578","4,723",748
+536,CU,Tamil Nadu (TN),Cuddalore,Cuddalore,"2,600,880","3,999",702
+537,DH,Tamil Nadu (TN),Dharmapuri,Dharmapuri,"1,502,900","4,532",332
+538,DGL,Tamil Nadu (TN),Dindigul,Dindigul,"2,161,367","6,058",357
+539,ER,Tamil Nadu (TN),Erode,Erode,"2,259,608","5,714",397
+540,KL,Tamil Nadu (TN),Kallakurichi,Kallakurichi,"1,682,687","3,520",478
+541,KC,Tamil Nadu (TN),Kanchipuram,Kanchipuram,"1,166,401","1,656",704
+542,KK,Tamil Nadu (TN),Kanyakumari,Nagercoil,"1,863,178","1,685","1,106"
+543,KA,Tamil Nadu (TN),Karur,Karur,"1,076,588","2,901",371
+544,KR,Tamil Nadu (TN),Krishnagiri,Krishnagiri,"1,883,731","5,086",370
+545,MDU,Tamil Nadu (TN),Madurai,Madurai,"3,191,038","3,676",823
+546,MLD,Tamil Nadu (TN),Mayiladuthurai,Mayiladuthurai,"918,356","1,172",784
+547,NG,Tamil Nadu (TN),Nagapattinam,Nagapattinam,"1,614,069","2,716",668
+548,NI,Tamil Nadu (TN),Nilgiris,Ooty,"735,071","2,549",288
+549,NM,Tamil Nadu (TN),Namakkal,Namakkal,"1,721,179","3,429",506
+550,PE,Tamil Nadu (TN),Perambalur,Perambalur,"564,511","1,752",323
+551,PU,Tamil Nadu (TN),Pudukkottai,Pudukkottai,"1,918,725","4,651",348
+552,RA,Tamil Nadu (TN),Ramanathapuram,Ramanathapuram,"1,337,560","4,123",320
+553,RN,Tamil Nadu (TN),Ranipet,Ranipettai,"1,210,277","2,234",524
+554,SA,Tamil Nadu (TN),Salem,Salem,"3,480,008","5,245",663
+555,SVG,Tamil Nadu (TN),Sivaganga,Sivagangai,"1,341,250","4,086",324
+556,TS,Tamil Nadu (TN),Tenkasi,Tenkasi,"14,07,627",2916,483
+557,TP,Tamil Nadu (TN),Tiruppur,Tiruppur,"2,471,222","5,106",476
+558,TC,Tamil Nadu (TN),Tiruchirappalli,Tiruchirappalli,"2,713,858","4,407",602
+559,TH,Tamil Nadu (TN),Theni,Theni,"1,243,684","3,066",433
+560,TI,Tamil Nadu (TN),Tirunelveli,Tirunelveli,"1,665,253","3,842",433
+561,TJ,Tamil Nadu (TN),Thanjavur,Thanjavur,"2,402,781","3,397",691
+562,TK,Tamil Nadu (TN),Thoothukudi,Thoothukudi,"1,738,376","4,594",378
+563,TP,Tamil Nadu (TN),Tirupattur,Tirupattur,"1,111,812","1,798",618
+564,TL,Tamil Nadu (TN),Tiruvallur,Tiruvallur,"3,725,697","3,424","1,049"
+565,TR,Tamil Nadu (TN),Tiruvarur,Thiruvarur,"1,268,094","2,377",533
+566,TV,Tamil Nadu (TN),Tiruvannamalai,Tiruvannaamalai,"2,468,965","6,191",399
+567,VE,Tamil Nadu (TN),Vellore,Vellore,"1,614,242","2,080",776
+568,VL,Tamil Nadu (TN),Viluppuram,Viluppuram,"2,093,003","3,725",562
+569,VNR,Tamil Nadu (TN),Virudhunagar,Virudhunagar,"1,943,309","3,446",454
+570,AD,Telangana (TS),Adilabad,Adilabad,"708,952","4,185.97",171
+571, –,Telangana (TS),Bhadradri Kothagudem,Kothagudem,"1,304,811","8,951.00",143
+572, –,Telangana (TS),Hanamkonda,Hanamkonda,"1,135,707","1,304.50",826
+573,HY,Telangana (TS),Hyderabad,Hyderabad,"3,943,323",217,"18,172"
+574, –,Telangana (TS),Jagtial,Jagtial,"983,414","3,043.23",407
+575, –,Telangana (TS),Jangaon,Jangaon,"582,457","2,187.50",259
+576, –,Telangana (TS),Jayashankar Bhupalpally,Bhupalpally,"712,257","6,361.70",115
+577, –,Telangana (TS),Jogulamba Gadwal,Gadwal,"664,971","2,928.00",208
+578, –,Telangana (TS),Kamareddy,Kamareddy,"972,625","3,651.00",266
+579,KA,Telangana (TS),Karimnagar,Karimnagar,"1,016,063","2,379.07",473
+580,KH,Telangana (TS),Khammam,Khammam,"1,401,639","4,453.00",321
+581, –,Telangana (TS),Kumuram Bheem Asifabad,Asifabad,"515,835","4,300.16",106
+582, –,Telangana (TS),Mahabubabad,Mahabubabad,"770,170","2,876.70",269
+583,MA,Telangana (TS),Mahbubnagar,Mahbubnagar,"1,318,110","4,037.00",281
+584, –,Telangana (TS),Mancherial,Mancherial,"807,037","4,056.36",201
+585,ME,Telangana (TS),Medak,Medak,"767,428","2,740.89",275
+586, –,Telangana (TS),Medchal–Malkajgiri,Shamirpet,"2,542,203","5,005.98","2,251"
+587, –,Telangana (TS),Mulugu,Mulugu,"2,94,671","3,881",124
+588,NA,Telangana (TS),Nalgonda,Nalgonda,"1,631,399","2,449.79",227
+589, –,Telangana (TS),Narayanpet,Narayanpet,"5,66,874",2336.44,243
+590, –,Telangana (TS),Nagarkurnool,Nagarkurnool,"893,308","6,545.00",124
+591, –,Telangana (TS),Nirmal,Nirmal,"709,415","3,562.51",185
+592,NI,Telangana (TS),Nizamabad,Nizamabad,"1,534,428","4,153.00",366
+593, –,Telangana (TS),Peddapalli,Peddapalli,"795,332","4,614.74",356
+594, –,Telangana (TS),Rajanna Sircilla,Sircilla,"546,121","2,030.89",273
+595,RA,Telangana (TS),Ranga Reddy,Hyderabad,"2,551,731","1,038.00",486
+596, –,Telangana (TS),Sangareddy,Sangareddy,"1,527,628","4,464.87",347
+597, –,Telangana (TS),Siddipet,Siddipet,"993,376","3,425.19",279
+598, –,Telangana (TS),Suryapet,Suryapet,"1,099,560","3,374.47",305
+599, –,Telangana (TS),Vikarabad,Vikarabad,"881,250","3,385.00",274
+600, –,Telangana (TS),Wanaparthy,Wanaparthy,"751,553","2,938.00",268
+601,WL,Telangana (TS),Warangal,Warangal,"716,457","2,175.50",330
+602, –,Telangana (TS),Yadadri Bhuvanagiri,Bhongir,"726,465","3,091.48",239
+603,DH,Tripura (TR),Dhalai,Ambassa,"377,988","2,400",157
+604,GM,Tripura (TR),Gomati,Udaipur,"436,868",1522.8,287
+605,KH,Tripura (TR),Khowai,Khowai,"327,391",1005.67,326
+606,NT,Tripura (TR),North Tripura,Dharmanagar,"415,946",1444.5,288
+607,SP,Tripura (TR),Sepahijala,Bishramganj,"484,233",1044.78,463
+608,ST,Tripura (TR),South Tripura,Belonia,"433,737",1534.2,283
+609,UK,Tripura (TR),Unakoti,Kailashahar,"277,335",591.93,469
+610,WT,Tripura (TR),West Tripura,Agartala,"917,534",942.55,973
+611,AG,Uttar Pradesh (UP),Agra,Agra,"4,380,793","4,027","1,084"
+612,AL,Uttar Pradesh (UP),Aligarh,Aligarh,"3,673,849","3,747","1,007"
+613,AN,Uttar Pradesh (UP),Ambedkar Nagar,Akbarpur,"2,398,709","2,372","1,021"
+614,AM,Uttar Pradesh (UP),Amethi,Gauriganj,"2,549,935","3,063",830
+615,JP,Uttar Pradesh (UP),Amroha,Amroha,"1,838,771","2,321",818
+616,AU,Uttar Pradesh (UP),Auraiya,Auraiya,"1,372,287","2,051",681
+617,FZ,Uttar Pradesh (UP),Ayodhya,Ayodhya,"2,468,371","2,765","1,054"
+618,AZ,Uttar Pradesh (UP),Azamgarh,Azamgarh,"4,616,509","4,053","1,139"
+619,BG,Uttar Pradesh (UP),Bagpat,Baghpat,"1,302,156","1,345",986
+620,BH,Uttar Pradesh (UP),Bahraich,Bahraich,"2,384,239","4,926",415
+621,BL,Uttar Pradesh (UP),Ballia,Ballia,"3,223,642","2,981","1,081"
+622,BP,Uttar Pradesh (UP),Balrampur,Balrampur,"2,149,066","3,349",642
+623,BN,Uttar Pradesh (UP),Banda,Banda,"1,799,541","4,413",404
+624,BB,Uttar Pradesh (UP),Barabanki,Barabanki,"3,257,983","3,825",739
+625,BR,Uttar Pradesh (UP),Bareilly,Bareilly,"4,465,344","4,120","1,084"
+626,BS,Uttar Pradesh (UP),Basti,Basti,"2,461,056","2,687",916
+627,BH,Uttar Pradesh (UP),Bhadohi,Gyanpur,"1,554,203",960,"1,531"
+628,BI,Uttar Pradesh (UP),Bijnor,Bijnor,"3,683,896","4,561",808
+629,BD,Uttar Pradesh (UP),Budaun,Budaun,"3,712,738","5,168",718
+630,BU,Uttar Pradesh (UP),Bulandshahr,Bulandshahr,"3,498,507","3,719",788
+631,CD,Uttar Pradesh (UP),Chandauli,Chandauli,"1,952,713","2,554",768
+632,CT,Uttar Pradesh (UP),Chitrakoot,Karwi,"990,626","3,202",315
+633,DE,Uttar Pradesh (UP),Deoria,Deoria,"3,098,637","2,535","1,220"
+634,ET,Uttar Pradesh (UP),Etah,Etah,"1,761,152","2,456",717
+635,EW,Uttar Pradesh (UP),Etawah,Etawah,"1,579,160","2,287",683
+636,FR,Uttar Pradesh (UP),Farrukhabad,Fatehgarh,"1,887,577","2,279",865
+637,FT,Uttar Pradesh (UP),Fatehpur,Fatehpur,"2,632,684","4,152",634
+638,FI,Uttar Pradesh (UP),Firozabad,Firozabad,"2,496,761","2,361","1,044"
+639,GB,Uttar Pradesh (UP),Gautam Buddha Nagar,Noida,"1,674,714","1,269","1,252"
+640,GZ,Uttar Pradesh (UP),Ghaziabad,Ghaziabad,"4,661,452","1,175","3,967"
+641,GP,Uttar Pradesh (UP),Ghazipur,Ghazipur,"3,622,727","3,377","1,072"
+642,GN,Uttar Pradesh (UP),Gonda,Gonda,"3,431,386","4,425",857
+643,GR,Uttar Pradesh (UP),Gorakhpur,Gorakhpur,"4,436,275","3,325","1,336"
+644,HM,Uttar Pradesh (UP),Hamirpur,Hamirpur,"1,104,021","4,325",268
+645,PN,Uttar Pradesh (UP),Hapur,Hapur,"1,338,211",660,"2,028"
+646,HR,Uttar Pradesh (UP),Hardoi,Hardoi,"4,091,380","5,986",683
+647,HT,Uttar Pradesh (UP),Hathras,Hathras,"1,565,678","1,752",851
+648,JL,Uttar Pradesh (UP),Jalaun,Orai,"1,670,718","4,565",366
+649,JU,Uttar Pradesh (UP),Jaunpur,Jaunpur,"4,476,072","4,038","1,108"
+650,JH,Uttar Pradesh (UP),Jhansi,Jhansi,"2,000,755","5,024",398
+651,KJ,Uttar Pradesh (UP),Kannauj,Kannauj,"1,658,005","1,993",792
+652,KD,Uttar Pradesh (UP),Kanpur Dehat,Akbarpur,"1,795,092","3,021",594
+653,KN,Uttar Pradesh (UP),Kanpur Nagar,Kanpur,"4,572,951","3,156","1,415"
+654,KR,Uttar Pradesh (UP),Kasganj,Kasganj,"1,438,156","1,955",736
+655,KS,Uttar Pradesh (UP),Kaushambi,Manjhanpur,"1,596,909","1,837",897
+656,KU,Uttar Pradesh (UP),Kushinagar,Padrauna,"3,560,830","2,909","1,226"
+657,LK,Uttar Pradesh (UP),Lakhimpur Kheri,Lakhimpur,"4,013,634","7,674",523
+658,LA,Uttar Pradesh (UP),Lalitpur,Lalitpur,"1,218,002","5,039",242
+659,LU,Uttar Pradesh (UP),Lucknow,Lucknow,"4,588,455","2,528","1,815"
+660,MG,Uttar Pradesh (UP),Maharajganj,Maharajganj,"2,665,292","2,953",903
+661,MH,Uttar Pradesh (UP),Mahoba,Mahoba,"876,055","2,847",288
+662,MP,Uttar Pradesh (UP),Mainpuri,Mainpuri,"1,847,194","2,760",670
+663,MT,Uttar Pradesh (UP),Mathura,Mathura,"2,541,894","3,333",761
+664,MB,Uttar Pradesh (UP),Mau,Mau,"2,205,170","1,713","1,287"
+665,ME,Uttar Pradesh (UP),Meerut,Meerut,"3,447,405","2,522","1,342"
+666,MI,Uttar Pradesh (UP),Mirzapur,Mirzapur,"2,494,533","4,522",561
+667,MO,Uttar Pradesh (UP),Moradabad,Moradabad,"4,773,138","3,718","1,284"
+668,MU,Uttar Pradesh (UP),Muzaffarnagar,Muzaffarnagar,"4,138,605","4,008","1,033"
+669,PI,Uttar Pradesh (UP),Pilibhit,Pilibhit,"2,037,225","3,499",567
+670,PR,Uttar Pradesh (UP),Pratapgarh,Pratapgarh,"3,173,752","3,717",854
+671,AH,Uttar Pradesh (UP),Prayagraj,Prayagraj,"5,959,798","5,481","1,087"
+672,RB,Uttar Pradesh (UP),Raebareli,Raebareli,"3,404,004","4,609",739
+673,RA,Uttar Pradesh (UP),Rampur,Rampur,"2,335,398","2,367",987
+674,SA,Uttar Pradesh (UP),Saharanpur,Saharanpur,"3,464,228","3,689",939
+675,SM,Uttar Pradesh (UP),Sambhal,Sambhal,"2,217,020",2453,890
+676,SK,Uttar Pradesh (UP),Sant Kabir Nagar,Khalilabad,"1,714,300","1,442","1,014"
+677,SJ,Uttar Pradesh (UP),Shahjahanpur,Shahjahanpur,"3,002,376","4,575",673
+678,SH,Uttar Pradesh (UP),Shamli,Shamli,"1,274,815","1,063","1,200"
+679,SV,Uttar Pradesh (UP),Shravasti,Shravasti,"1,114,615","1,948",572
+680,SN,Uttar Pradesh (UP),Siddharthnagar,Naugarh,"2,553,526","2,751",882
+681,SI,Uttar Pradesh (UP),Sitapur,Sitapur,"4,474,446","5,743",779
+682,SO,Uttar Pradesh (UP),Sonbhadra,Robertsganj,"1,862,612","6,788",274
+683,SU,Uttar Pradesh (UP),Sultanpur,Sultanpur,"3,790,922","4,436",855
+684,UN,Uttar Pradesh (UP),Unnao,Unnao,"3,110,595","4,561",682
+685,VA,Uttar Pradesh (UP),Varanasi,Varanasi,"3,682,194","1,535","2,399"
+686,AL,Uttarakhand (UK),Almora,Almora,"621,927","3,090",198
+687,BA,Uttarakhand (UK),Bageshwar,Bageshwar,"259,840","2,310",116
+688,CL,Uttarakhand (UK),Chamoli,Gopeshwar,"391,114","7,692",49
+689,CP,Uttarakhand (UK),Champawat,Champawat,"259,315","1,781",147
+690,DD,Uttarakhand (UK),Dehradun,Dehradun,"1,698,560","3,088",550
+691,HA,Uttarakhand (UK),Haridwar,Haridwar,"1,927,029","2,360",817
+692,NA,Uttarakhand (UK),Nainital,Nainital,"955,128","3,853",225
+693,PG,Uttarakhand (UK),Pauri Garhwal,Pauri,"686,527","5,438",129
+694,PI,Uttarakhand (UK),Pithoragarh,Pithoragarh,"485,993","7,110",69
+695,RP,Uttarakhand (UK),Rudraprayag,Rudraprayag,"236,857","1,896",119
+696,TG,Uttarakhand (UK),Tehri Garhwal,New Tehri,"616,409","4,085",169
+697,US,Uttarakhand (UK),Udham Singh Nagar,Rudrapur,"1,648,367","2,912",648
+698,UT,Uttarakhand (UK),Uttarkashi,Uttarkashi,"329,686","7,951",41
+699,AD,West Bengal (WB),Alipurduar,Alipurduar,"1,501,983","3,136",479
+700,BN,West Bengal (WB),Bankura,Bankura,"3,596,292","6,882",523
+701,BI,West Bengal (WB),Birbhum,Suri,"3,502,387","4,545",771
+702,KB,West Bengal (WB),Cooch Behar,Cooch Behar,"2,822,780","3,387",833
+703,DD,West Bengal (WB),Dakshin Dinajpur,Balurghat,"1,670,931","2,183",753
+704,DA,West Bengal (WB),Darjeeling,Darjeeling,"1,595,181","2,093",762
+705,HG,West Bengal (WB),Hooghly,Chinsurah,"5,520,389","3,149","1,753"
+706,HR,West Bengal (WB),Howrah,Howrah,"4,841,638","1,467","3,300"
+707,JA,West Bengal (WB),Jalpaiguri,Jalpaiguri,"3,869,675","6,227",621
+708,JH,West Bengal (WB),Jhargram,Jhargram,"1,136,548","3,038",374
+709,KA,West Bengal (WB),Kalimpong,Kalimpong,"251,642","1,054",239
+710,KO,West Bengal (WB),Kolkata,Kolkata,"4,486,679",206.08,"24,252"
+711,MA,West Bengal (WB),Maldah,English Bazar,"3,997,970","3,733","1,071"
+712,MSD,West Bengal (WB),Murshidabad,Baharampur,"7,102,430","5,324","1,334"
+713,NA,West Bengal (WB),Nadia,Krishnanagar,"5,168,488","3,927","1,316"
+714,PN,West Bengal (WB),North 24 Parganas,Barasat,"10,082,852","4,094","2,463"
+715,BR,West Bengal (WB),Paschim Bardhaman,Asansol,"2,882,031","1,603","1,798"
+716,PM,West Bengal (WB),Paschim Medinipur,Midnapore,"4,776,909","6,308",757
+717,BR,West Bengal (WB),Purba Bardhaman,Bardhaman,"4,835,532","5,433",890
+718,PR,West Bengal (WB),Purba Medinipur,Tamluk,"5,095,875","4,736","1,076"
+719,PU,West Bengal (WB),Purulia,Purulia,"2,927,965","6,259",468
+720,PS,West Bengal (WB),South 24 Parganas,Alipore,"8,161,961","9,960",819
+721,UD,West Bengal (WB),Uttar Dinajpur,Raiganj,"3,000,849","3,180",956
+722,NI,Andaman and Nicobar (AN),Nicobar,Car Nicobar,"36,842","1,841",20
+723,NA,Andaman and Nicobar (AN),North and Middle Andaman,Mayabunder,"105,597","3,736",28
+724,SA,Andaman and Nicobar (AN),South Andaman,Port Blair,"238,142","2,672",89
+725,CH,Chandigarh (CH),Chandigarh,Chandigarh,"1,055,450",114,"9,258"
+726,DA,Dadra and Nagar Haveli and Daman and Diu (DD),Daman,Daman,"191,173",72,"2,651"
+727,DI,Dadra and Nagar Haveli and Daman and Diu (DD),Diu,Diu,"52,074",39,"2,058"
+728,DN,Dadra and Nagar Haveli and Daman and Diu (DD),Dadra and Nagar Haveli,Silvassa,"343,709",491,700
+729,AN,Jammu and Kashmir (JK),Anantnag,Anantnag,"1,070,144",2853,375
+730,BD,Jammu and Kashmir (JK),Budgam,Budgam,"735,753",1406,537
+731,BPR,Jammu and Kashmir (JK),Bandipore,Bandipore,"385,099","3,010",128
+732,BR,Jammu and Kashmir (JK),Baramulla,Baramulla,"1,015,503",3329,305
+733,DO,Jammu and Kashmir (JK),Doda,Doda,"409,576","2,625",79
+734,GB,Jammu and Kashmir (JK),Ganderbal,Ganderbal,"297,003",1979,"1,151"
+735,JA,Jammu and Kashmir (JK),Jammu,Jammu,"1,526,406","3,097",596
+736,KT,Jammu and Kashmir (JK),Kathua,Kathua,"615,711","2,651",232
+737,KW,Jammu and Kashmir (JK),Kishtwar,Kishtwar,"230,696","7,737",30
+738,KG,Jammu and Kashmir (JK),Kulgam,Kulgam,"422,786",457,925
+739,KU,Jammu and Kashmir (JK),Kupwara,Kupwara,"875,564","2,379",368
+740,PO,Jammu and Kashmir (JK),Poonch,Poonch,"476,820","1,674",285
+741,PU,Jammu and Kashmir (JK),Pulwama,Pulwama,"570,060","1,398",598
+742,RA,Jammu and Kashmir (JK),Rajouri,Rajouri,"619,266","2,630",235
+743,RB,Jammu and Kashmir (JK),Ramban,Ramban,"283,313","1,330",213
+744,RS,Jammu and Kashmir (JK),Reasi,Reasi,"314,714",1710,184
+745,SB,Jammu and Kashmir (JK),Samba,Samba,"318,611",913,318
+746,SH,Jammu and Kashmir (JK),Shopian,Shopian,"265,960",312,852
+747,SR,Jammu and Kashmir (JK),Srinagar,Srinagar,"1,269,751","2,228",703
+748,UD,Jammu and Kashmir (JK),Udhampur,Udhampur,"555,357","4,550",211
+749,KR,Ladakh (LA),Kargil,Kargil,"143,388","14,036",10
+750,LE,Ladakh (LA),Leh,Leh,"133,487","45,110",3
+751,LD,Lakshadweep (LD),Lakshadweep,Kavaratti,"64,473",30,"2,149"
+752,CD,National Capital Territory of Delhi (DL),Central Delhi,Daryaganj,"582,320",25,"27,730"
+753,ED,National Capital Territory of Delhi (DL),East Delhi,Preet Vihar,"1,709,346",440,"27,132"
+754,ND,National Capital Territory of Delhi (DL),New Delhi,Connaught Place,"142,004",22,"4,057"
+755,NO,National Capital Territory of Delhi (DL),North Delhi,Sadar Bazaar,"887,978",59,"14,557"
+756,NE,National Capital Territory of Delhi (DL),North East Delhi,Seelampur,"2,241,624",52,"36,155"
+757,NW,National Capital Territory of Delhi (DL),North West Delhi,Kanjhawala,"3,656,539",130,"8,254"
+758, –,National Capital Territory of Delhi (DL),Shahdara district,Nand Nagri, –,59.75, –
+759,SD,National Capital Territory of Delhi (DL),South Delhi,Saket,"2,731,929",250,"11,060"
+760,SE,National Capital Territory of Delhi (DL),South East Delhi,Defence Colony,"1,500,636",102,"15,000"
+761,SW,National Capital Territory of Delhi (DL),South West Delhi,Vasant Vihar,"2,292,958",395,"5,446"
+762,WD,National Capital Territory of Delhi (DL),West Delhi,Rajouri Garden,"2,543,243",112,"19,563"
+763,KA,Puducherry (PY),Karaikal,Karaikal,"200,222",157,"1,275"
+764,MA,Puducherry (PY),Mahé,Mahé,"41,816",9,"4,646"
+765,PO,Puducherry (PY),Puducherry,Pondicherry,"950,289",293,"3,232"
+766,YA,Puducherry (PY),Yanam,Yanam,"55,626",30,"1,854"
+,,,,,,,
+,,,,,,,
+https://www.downloadexcelfiles.com/in_en/download-list-districts-india,,,,,,,

@@ -38,6 +38,8 @@ public class Complaint_Lodging_System {
         col.updateOne(Filters.eq("Username",Username), new Document("$set",new Document("Status", newStatus)));
     }
 
+    
+
     public ArrayList<Document> getComplaint(){
 
         FindIterable<Document> cur = col.find();
