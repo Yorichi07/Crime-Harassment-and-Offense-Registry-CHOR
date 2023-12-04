@@ -2,7 +2,6 @@ package backend;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Map;
 
 import org.bson.conversions.Bson;
 import org.bson.Document;
