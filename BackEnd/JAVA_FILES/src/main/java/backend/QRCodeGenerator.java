@@ -13,7 +13,7 @@ import java.util.Map;
 public class QRCodeGenerator {
 
     public static void main(String[] args) {
-        String link = "https://www.google.com"; // Replace with your link
+        String link = "https://evaluation-mrgz.vercel.app/login"; // Replace with your link
         String filePath = "qrcode.png"; // Replace with your desired file path
 
         generateQRCode(link, filePath);

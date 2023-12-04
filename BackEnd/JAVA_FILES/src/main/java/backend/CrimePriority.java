@@ -25,9 +25,9 @@ public class CrimePriority {
         crimePriorityMap.put("RIOTS", 17);
         crimePriorityMap.put("CRIMINAL BREACH", 4);
         crimePriorityMap.put("CHEATING", 4);
-        crimePriorityMap.put("COUNTERFEITING", 4); // Note the corrected spelling
+        crimePriorityMap.put("COUNTERFEITING", 4); 
         crimePriorityMap.put("ARSON", 4);
-        crimePriorityMap.put("HURT/CAUSING HURT", 4); // Corrected the key to avoid duplicates
+        crimePriorityMap.put("HURT/CAUSING HURT", 4); 
         crimePriorityMap.put("DOWRY DEATHS", 18);
         crimePriorityMap.put("ASSAULT ON WOMEN WITH INTENT TO OUTRAGE HER MODESTY", 24);
         crimePriorityMap.put("INSULT TO MODESTY OF WOMEN", 25);

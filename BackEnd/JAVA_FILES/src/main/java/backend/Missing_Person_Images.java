@@ -21,5 +21,4 @@ public class Missing_Person_Images {
 		//Write the data to the file
 		Files.write(filePath,fileData);
 	}
-
 }

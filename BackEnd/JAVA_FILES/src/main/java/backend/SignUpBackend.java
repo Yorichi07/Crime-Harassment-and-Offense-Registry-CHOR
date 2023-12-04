@@ -35,7 +35,7 @@ import com.opencsv.exceptions.CsvValidationException;
 
 public class SignUpBackend {
 
-	public static List<Document> Sort(List<Document> allUsers) {
+	public static List<Document> Sort(List<Document> allUsers) {			//insertion sort
 
 		int n = allUsers.size();
 		for (int i = 1; i < n; i++) {
@@ -52,7 +52,7 @@ public class SignUpBackend {
 		return allUsers;
 	}
 
-	public static int Search(List<Document> allUsers, String Target) {
+	public static int Search(List<Document> allUsers, String Target) {		//binary search
 
 		int left = 0;
 		int right = allUsers.size() - 1;
@@ -75,7 +75,7 @@ public class SignUpBackend {
 
 	static String Encrypt(String Password) throws CsvValidationException, IOException, NoSuchAlgorithmException {
 
-		String secret_key, salt_val;
+		String secret_key, salt_val;		//generating the secretkey & saltval
 		CSVReader reader = new CSVReader(new FileReader("BackEnd\\JAVA_FILES\\Salt_value_and_Private_key.csv"));
 		String[] nextLine;
 		nextLine = reader.readNext();

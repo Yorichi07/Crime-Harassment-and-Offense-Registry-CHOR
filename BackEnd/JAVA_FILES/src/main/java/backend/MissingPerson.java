@@ -49,7 +49,6 @@ public class MissingPerson {
                 arr.add(doc);
             }
         }
-
         return arr;
         //Filters.and() it is used to combine multiple filter conditions using logical AND
         //filterMap.entrySet().stream() takes entries of filterMap and converts them into a stream of key-value pairs(entries).

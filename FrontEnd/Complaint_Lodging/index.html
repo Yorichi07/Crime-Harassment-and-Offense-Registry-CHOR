@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>COMPLAINT Lodging</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap-icons.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css?195">
+</head>
+<script src="./assets/js/complaint.js"></script>
+
+<body>
+
+	<div class="class_2">
+		<div class="class_3">
+			<img src="assets/images/C.H.O.R.png" class="class_4">
+			<div class="class_5">
+				<a href="#" class="class_6">
+					Home
+				</a>
+				<a href="#" class="class_6">
+					Map
+				</a>
+				<a href="#" class="class_8">
+					Crime Predictor
+				</a>
+				<a href="#" class="class_9">
+					Complaint Lodging
+				</a>
+				<a href="#" class="class_6">
+					Missing Person
+				</a>
+				<a href="#" class="class_6">
+					ChatBot
+				</a>
+			</div>
+		</div>
+	</div>
+	<section class="class_10">
+		<div class="class_11">
+			<h1 class="class_12" spellcheck="false">
+				COMPLAINT LODGER
+				<br>
+			</h1>
+			<div class="class_13" spellcheck="false">
+				<font color="#d1d5db"
+					face="Söhne, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, Helvetica Neue, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji">
+					<span class="class_14">The Complaint Lodging simplifies the process of reporting complaints related to various issues. Users can submit complaints, attach relevant documents, and monitor the status of their submissions. The system prioritizes transparency and responsiveness, employing advanced technologies to safeguard the confidentiality and integrity of reported information.</span>
+				</font>
+				<br>
+			</div>
+		</div>
+		<section class="class_16">
+			<form class="class_17">
+				<div class="class_18">
+					<div class="class_19">
+						<label class="class_20">
+							Username
+						</label>
+						<input placeholder="Enter Username" type="text" name="username" class="class_21">
+					</div>
+					<div class="class_19">
+						<label class="class_20">
+							Title of Complaint
+						</label>
+						<input placeholder="Enter title of complaint" type="text" name="title" class="class_21">
+					</div>
+					<div class="class_19">
+						<label class="class_20">
+							Description
+						</label>
+						<input placeholder="Describe the complaint" type="text" name="Description" class="class_21">
+					</div>
+				</div>
+
+				<div class="class_19">
+					<label class="class_20">
+						State
+					</label>
+					<label for=" State-names"> Choose the State: </label>
+					<select name="State-names" id="state-names"></select>
+				</div>
+
+				<div class="class_19">
+					<label class="class_20">
+						District
+					</label>
+					<label for=" District-names"> Choose the District: </label>
+					<select name="District-names" id="state-names"></select>
+				</div>
+
+				<button class="class_38" type="button" onclick="complaintSuccess()">
+					SUBMIT
+				</button>
+			</form>
+		</section>
+	</section>
+	<section class="class_25">
+		<div class="class_26">
+			<div class="class_27">
+				<h1 class="class_28" spellcheck="false">
+					<div>
+						Get in touch with the right people at C.H.O.R. We’re here to help!
+					</div>
+				</h1>
+				<div class="class_29" spellcheck="false">
+					Your experience matters to us, and we would love to hear your thoughts! Whether you've just explored
+					our website, used our features, or navigated our content, your feedback is incredibly valuable in
+					helping us enhance your experience.
+				</div>
+			</div>
+			<div class="class_27">
+				<form method="post" enctype="multipart/form-data" class="class_30">
+					<h1 class="class_31">
+						Contact us
+						<br>
+					</h1>
+					<div class="class_32">
+						<label class="class_33">
+							Name:
+						</label>
+						<input placeholder="Enter your Name" type="text" name="name" class="class_34">
+					</div>
+					<div class="class_32">
+						<label class="class_33">
+							Email:
+						</label>
+						<input placeholder="Enter a valid Email" type="email" name="email" class="class_34">
+					</div>
+					<div class="class_35">
+						<label class="class_36">
+							Message:
+						</label>
+						<textarea placeholder="Enter your Message" name="message" class="class_34">
+						</textarea>
+					</div>
+					<div class="class_37">
+						<label>
+							<input type="checkbox" name="">
+							I accept the terms of service
+						</label>
+					</div>
+					<button class="class_38" type="button" onclick="successSubmit()">
+						SUBMIT
+					</button>
+				</form>
+			</div>
+		</div>
+		<div class="class_39">
+			@2023 All Rights Reserved C.H.O.R, Inc
+		</div>
+	</section>
+
+</body>
+
+</html>
