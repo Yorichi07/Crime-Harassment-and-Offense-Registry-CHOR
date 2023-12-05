@@ -4,61 +4,82 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Registration page</title>
+  <title>Signup page</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
 </head>
 
 <body>
-  <section>
-    <div class="Registrationbox">
-      <form action="">
 
-        <div class="info-text login">
+  <div class="split-screen">
+    <div class="left">
+      <section class="copy">
+        <h1>Welcome to C.H.O.R</h1>
+        <p>
+          "Welcome to our Crime, Harassment & Offence Registry – a dedicated platform committed to promoting safety, awareness, and justice by empowering individuals to report and document incidents of harassment, fostering a community united against crime."
+        </p>
+      </section>
+    </div>
+    <div class="right">
+      <form>
+        <section class="copy">
 
-          <h2>Registration</h2>
-
-          <div class="input-box">
-            <span class="icon"><ion-icon name="person"></ion-icon></span>
-            <input type="text" required>
-            <label>Full Name</label>
+          <div class="logo">
+            <img src="C.H.O.R.png" alt="Logo">
           </div>
 
-          <div class="input-box">
-            <span class="icon"><ion-icon name="mail"></ion-icon></span>
-            <input type="email" required>
-            <label>Email</label>
+          <h2>Sign Up</h2>
+          <div class="login-container">
+            <p>Already have an account? <a href="#">
+              <strong>Log In</strong>
+            </a> </p>
           </div>
+        </section>
 
-          <div class="input-box">
-            <span class="icon"><ion-icon name="call"></ion-icon></span>
-            <input type="number" required>
-            <label>Phone Number</label>
-          </div>
-
-          <div class="input-box">
-            <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
-            <input type="password" required>
-            <label>Password</label>
-          </div>
-
-          <!--<div class="remember-forget">
-            <label><input type="checkbox">Remember me</label>
-          </div>-->
-
-          <button type="button" class="subBtn">Sign up</button>
-          <div class="register-link">
-            <p>
-              Already have an account? <a href="#">Login</a>
-            </p>
-          </div>
-          <p class="errMsg"></p>
+        <div class="input-container name">
+          <label for="name">Full Name</label>
+          <input id="name" name="name" type="name" placeholder="Enter your Full Name">
         </div>
+
+        <div class="input-container username">
+          <label for="username">Username</label>
+          <input id="username" name="username" type="username" placeholder="Enter your username" >
+        </div>
+
+        <div class="input-container phone">
+          <label for="phone">Phone Number</label>
+          <input id="phone" name="phone" type="tel" placeholder="Enter your phone number" pattern="[0-9]{10}" required>
+        </div>
+        
+
+        <div class="input-container password">
+          <label for="password">Password</label>
+          <input id="password" name="password" type="password" placeholder="Enter your password">
+          <i class="far fa-eye-slash"></i>
+        </div>
+
+        
+          <!--<div class="input-container cta">
+            <label class="checkbox-container">
+              <input type="checkbox">
+              <span class="checkmark"></span>
+              Sign up for email updates.
+            </label>
+          </div>-->
+          <button class="signup-btn" type="submit">Sign Up</button>
+        <section class="copy legal">
+          <p><span class="small">By continuing, you agree to accept our <br> Privacy Policy &amp; Terms of Service.</span></p>
+        </section>
+
       </form>
     </div>
-  </section>
+  </div>
 
-  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-  <script src="Registration.js"></script>
 
 </body>
+<script src="Login.js"></script>
+
+
+
+</html>
