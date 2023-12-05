@@ -89,43 +89,25 @@
 		<label  class="class_20" >
 			Crime Encountered:
 		</label>
-		<select class="class_21" >
-			<option >
-				--Select--
-			</option>
-			<option >
-				Option 1
-			</option>
-			<option >
-				Option 2
-			</option>
+		<select class="class_21" onchange="addSubCrime()">
 		</select>
 	</div>
 	<div class="class_22" >
 		<label  class="class_23" >
 			Sub Crime Encountered:
 		</label>
-		<select class="class_24" >
-			<option >
-				--Select--
-			</option>
-			<option >
-				Option 1
-			</option>
-			<option >
-				Option 2
-			</option>
+		<select class="class_24">
 		</select>
 	</div>
 	<div class="class_90">
-		<button type="button">SUBMIT</button>
+		<button type="button" onclick="getResult()">SUBMIT</button>
 	</div>
 	<div class="class_25" >
 		<label  class="class_26" >
 			Output:
 		</label>
-		<textarea placeholder="" name="comments" class="class_27"  spellcheck="false">
-		</textarea>
+		<div name="comments" class="class_27" spellcheck="false">
+		</div>
 	</div>
 	<section class="class_70" >
 		<div class="class_71" >
@@ -182,4 +164,5 @@
 	</section>
 	
 </body>
+<script src="./assets/js/main.js"></script>
 </html>
