@@ -21,6 +21,7 @@ subBtn.addEventListener("click",()=>{
             errMsg.innerHTML = resp.Msg
         }else{
             window.alert(resp.Msg)
+            window.location = "../Main Page/index.html"
         }
     })
 })

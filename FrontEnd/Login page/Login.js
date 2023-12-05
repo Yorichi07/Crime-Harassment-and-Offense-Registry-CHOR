@@ -19,6 +19,7 @@ subBtn.addEventListener("click",()=>{
         console.log(rep)
         if(rep.ResCode==200){
             window.alert(rep.Msg)
+            window.location = "../Main Page/index.html"
         }else{
             err.innerHTML = rep.Msg
         }
