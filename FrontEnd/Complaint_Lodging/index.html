@@ -8,7 +8,6 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap-icons.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/styles.css?195">
 </head>
-<script src="./assets/js/complaint.js"></script>
 
 <body>
 
@@ -79,7 +78,7 @@
 						State
 					</label>
 					<label for=" State-names"> Choose the State: </label>
-					<select name="State-names" id="state-names"></select>
+					<select onchange="addDistrict()" name="State-names" id="state-names"></select>
 				</div>
 
 				<div class="class_19">
@@ -90,7 +89,7 @@
 					<select name="District-names" id="state-names"></select>
 				</div>
 
-				<button class="class_38" type="button" onclick="complaintSuccess()">
+				<button class="class_38" type="button" onclick="submitComplaint()">
 					SUBMIT
 				</button>
 			</form>
@@ -153,5 +152,6 @@
 	</section>
 
 </body>
+<script src="./assets/js/complaint.js"></script>
 
 </html>

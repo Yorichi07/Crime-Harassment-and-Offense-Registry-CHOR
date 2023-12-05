@@ -17,7 +17,11 @@ import com.opencsv.CSVReader;
 
 import org.bson.Document;
 import com.google.gson.Gson;
+import com.mongodb.util.JSON;
 import com.opencsv.exceptions.CsvValidationException;
+
+import org.json.simple.*;
+import org.json.simple.parser.*;
 
 
 public class BackEnd {
@@ -43,6 +47,10 @@ public class BackEnd {
 	}
 
 	public static void main(String[] args) {
+
+		//Json file read 
+		JSONParser pars = new JSONParser();
+		
 		// Initializing the chat result HashMap
 		ChatbotBackend cbknd = new ChatbotBackend();
 		cbknd.createbot();
@@ -88,12 +96,24 @@ public class BackEnd {
 		//Login Page
 		get("/Login", (req,res)->{
 			res.type("text/html");
-			res.redirect("http://localhost:3000/Login");
+			res.redirect("/html/Login Page/index.html");
 			return "";
 		});
 
 		
 		path("/api",()->{
+
+			get("/getCoords", (req,res)->{
+				res.type("application/json");
+				try {
+					Object obj = pars.parse(new FileReader("BackEnd\\JAVA_FILES\\name.json"));
+					JSONObject jsob = (JSONObject)obj;
+					return jsob;
+				} catch (Exception e) {
+					System.out.println(e);
+				}
+				return "";
+			});
 
 			post("/GetComplaints", (req,res)->{
 				
@@ -121,7 +141,7 @@ public class BackEnd {
 				String[] rarr  = gson.fromJson(req.body(), String[].class);
 				String ans = cbknd.resolveCrimeDescription(rarr[0], rarr[1]);
 
-				return ans;
+				return gson.toJson(ans);
 			});
 
 			post("/Complaints/Add",(req,res)->{
@@ -132,7 +152,7 @@ public class BackEnd {
 
 				cls.createComplaint((String)cmpo.get("UserName"),(String) cmpo.get("Title"),(String) cmpo.get("Description"),(String) cmpo.get("District"),(String) cmpo.get("State"),(String) cmpo.get("Status"));
 
-				return "";
+				return gson.toJson("Complaint Added");
 			});
 
 			post("/Complaints/SetStatus", (req,res)->{
@@ -141,9 +161,9 @@ public class BackEnd {
 				HashMap<String,String> reParam = gson.fromJson(req.body(), HashMap.class);
 
 				Complaint_Lodging_System cls = new Complaint_Lodging_System();
-				cls.setStatus(reParam.get("id"), reParam.get("Status"));
+				cls.setStatus(reParam.get("_id"), reParam.get("Status"));
 
-				return "";
+				return gson.toJson("Status updated");
 			});
 
 			get("/getPredict/:Year", (req,res)->{
@@ -160,7 +180,13 @@ public class BackEnd {
 				Double expOtp = weight*Year + bias;
 
 
-				return gson.toJson("The expected amount of cases for Year "+Year+" are "+ expOtp.intValue());
+				return gson.toJson(expOtp.intValue());
+			});
+
+			get("/getCrimes", (req,res)->{
+				Crimes Cobj = new Crimes();
+				ArrayList<Document> arr = Cobj.getCrimes();
+				return gson.toJson(arr);
 			});
 
 			get("/GetMissing", (req,res)->{
@@ -235,7 +261,7 @@ public class BackEnd {
 					String pathString =".\\BackEnd\\JAVA_FILES\\src\\main\\resources\\public\\Images\\";
 					pathString = pathString.concat(paramerterMap.get("user")[0]);
 					mpi.createFolderAndFile(pathString, uploadedFile.getSubmittedFileName(), inp.readAllBytes());
-					return gson.toJson("Image Uplaoded at: http:\\\\localhost:8080\\Images\\"+paramerterMap.get("user")[0]+uploadedFile.getSubmittedFileName());
+					return gson.toJson("Image Uplaoded at: http://localhost:8080/Images/"+paramerterMap.get("user")[0]+"/"+uploadedFile.getSubmittedFileName());
 				} catch (Exception e) {
 					e.printStackTrace();
 					return gson.toJson(e);

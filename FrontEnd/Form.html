@@ -1,0 +1,28 @@
+<html>
+    <script>
+        function handelClick() {
+            console.log("a")
+        let frm = new FormData()
+        frm.append("user",document.querySelector(".name").value)
+        frm.append("file",document.querySelector(".input").files[0])
+        fetch("http://localhost:8080/api/Missing/ImgUpload",{
+            method:"POST",
+            body:frm
+
+        }).then(res=>{
+            return res.json()
+        }).then(resp=>{
+            window.alert(resp)
+        }).catch(err=>{
+            window.alert(err)
+        })
+    }
+    </script>
+    <body>
+        <form>
+            <input type="text" class="name" placeholder="userName">
+            <input type="file" class="input" accept="image/*">
+            <button type="button" onclick=handelClick()>click</button>
+        </form>
+    </body>
+</html>
