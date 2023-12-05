@@ -17,6 +17,7 @@ import com.opencsv.CSVReader;
 
 import org.bson.Document;
 import com.google.gson.Gson;
+import com.mongodb.util.JSON;
 import com.opencsv.exceptions.CsvValidationException;
 
 import org.json.simple.*;
@@ -140,7 +141,7 @@ public class BackEnd {
 				String[] rarr  = gson.fromJson(req.body(), String[].class);
 				String ans = cbknd.resolveCrimeDescription(rarr[0], rarr[1]);
 
-				return ans;
+				return gson.toJson(ans);
 			});
 
 			post("/Complaints/Add",(req,res)->{
@@ -151,7 +152,7 @@ public class BackEnd {
 
 				cls.createComplaint((String)cmpo.get("UserName"),(String) cmpo.get("Title"),(String) cmpo.get("Description"),(String) cmpo.get("District"),(String) cmpo.get("State"),(String) cmpo.get("Status"));
 
-				return "Complaint Added";
+				return gson.toJson("Complaint Added");
 			});
 
 			post("/Complaints/SetStatus", (req,res)->{
@@ -162,7 +163,7 @@ public class BackEnd {
 				Complaint_Lodging_System cls = new Complaint_Lodging_System();
 				cls.setStatus(reParam.get("_id"), reParam.get("Status"));
 
-				return "Status updated";
+				return gson.toJson("Status updated");
 			});
 
 			get("/getPredict/:Year", (req,res)->{
