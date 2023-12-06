@@ -1,4 +1,4 @@
-const subBtn = document.querySelector(".subBtn");
+const subBtn = document.querySelector(".login-btn");
 const err = document.querySelector(".errMsg");
 
 subBtn.addEventListener("click",()=>{

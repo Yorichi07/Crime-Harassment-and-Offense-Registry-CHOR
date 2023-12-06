@@ -1,4 +1,4 @@
-const subBtn = document.querySelector(".subBtn")
+const subBtn = document.querySelector(".signup-btn")
 const errMsg = document.querySelector(".errMsg")
 
 

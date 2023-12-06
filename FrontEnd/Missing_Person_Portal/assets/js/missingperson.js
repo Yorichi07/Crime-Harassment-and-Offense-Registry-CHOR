@@ -17,7 +17,7 @@ async function LoadData(){
 
     const wrapper = document.querySelector(".misCard_cont")
 
-    for(i=0;i<5;i=i+1){
+    for(i=0;i<100;i=i+1){
         let card = document.createElement("div")
         card.className = "class_23"
         let card_in = document.createElement("div")
@@ -143,7 +143,7 @@ async function searchData(){
         method:"POST",
         headers:{"Content-Type":"application/json; charset=UTF-8"},
         body:JSON.stringify({
-            Name:reqp
+            Name:reqp.toUpperCase()
         })
     }).then(res=>{
         return res.json()
